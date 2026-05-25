@@ -1,0 +1,14 @@
+D:\jose\Minimarked\BackendMinimarket\Constantes\bin\Debug\net8.0\Constantes.deps.json
+D:\jose\Minimarked\BackendMinimarket\Constantes\bin\Debug\net8.0\Constantes.runtimeconfig.json
+D:\jose\Minimarked\BackendMinimarket\Constantes\bin\Debug\net8.0\Constantes.dll
+D:\jose\Minimarked\BackendMinimarket\Constantes\bin\Debug\net8.0\Constantes.pdb
+D:\jose\Minimarked\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.csproj.AssemblyReference.cache
+D:\jose\Minimarked\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.GeneratedMSBuildEditorConfig.editorconfig
+D:\jose\Minimarked\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.AssemblyInfoInputs.cache
+D:\jose\Minimarked\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.AssemblyInfo.cs
+D:\jose\Minimarked\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.csproj.CoreCompileInputs.cache
+D:\jose\Minimarked\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.dll
+D:\jose\Minimarked\BackendMinimarket\Constantes\obj\Debug\net8.0\refint\Constantes.dll
+D:\jose\Minimarked\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.pdb
+D:\jose\Minimarked\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.genruntimeconfig.cache
+D:\jose\Minimarked\BackendMinimarket\Constantes\obj\Debug\net8.0\ref\Constantes.dll

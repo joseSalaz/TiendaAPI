@@ -1,0 +1,14 @@
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\bin\Debug\net8.0\UtilInterface.deps.json
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\bin\Debug\net8.0\UtilInterface.runtimeconfig.json
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\bin\Debug\net8.0\UtilInterface.dll
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\bin\Debug\net8.0\UtilInterface.pdb
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\UtilInterface.csproj.AssemblyReference.cache
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\UtilInterface.GeneratedMSBuildEditorConfig.editorconfig
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\UtilInterface.AssemblyInfoInputs.cache
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\UtilInterface.AssemblyInfo.cs
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\UtilInterface.csproj.CoreCompileInputs.cache
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\UtilInterface.dll
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\refint\UtilInterface.dll
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\UtilInterface.pdb
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\UtilInterface.genruntimeconfig.cache
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\ref\UtilInterface.dll

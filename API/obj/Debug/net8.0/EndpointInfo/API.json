@@ -1,0 +1,13 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "SISTEMA DE MINIMARKET",
+    "description": "Documentación de los servicios para el sistema de MINIMARKET",
+    "contact": {
+      "name": "José Salazar"
+    },
+    "version": "v1"
+  },
+  "paths": { },
+  "components": { }
+}
