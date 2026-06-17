@@ -12,3 +12,7 @@ D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\refint\UtilI
 D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\UtilInterface.pdb
 D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\UtilInterface.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\ref\UtilInterface.dll
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\bin\Debug\net8.0\DBModel.dll
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\bin\Debug\net8.0\DBModel.pdb
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\UtilInterface.sourcelink.json
+D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\UtilInte.BB3F5A05.Up2Date

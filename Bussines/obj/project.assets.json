@@ -1166,6 +1166,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "AutoMapper": "16.1.1",
+          "DBModel": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.27",
           "Microsoft.EntityFrameworkCore": "8.0.27",
           "Microsoft.EntityFrameworkCore.Abstractions": "8.0.27",
@@ -2963,7 +2964,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

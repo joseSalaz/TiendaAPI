@@ -12,3 +12,4 @@ D:\jose\Minimarked\BackendMinimarket\Constantes\obj\Debug\net8.0\refint\Constant
 D:\jose\Minimarked\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.pdb
 D:\jose\Minimarked\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\Constantes\obj\Debug\net8.0\ref\Constantes.dll
+D:\jose\Minimarked\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.sourcelink.json

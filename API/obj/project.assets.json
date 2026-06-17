@@ -1170,6 +1170,25 @@
           "bin/placeholder/IBussines.dll": {}
         }
       },
+      "IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Bussines": "1.0.0",
+          "IBussines": "1.0.0",
+          "IRepository": "1.0.0",
+          "IService": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0",
+          "Repository": "1.0.0",
+          "UtilInterface": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IoC.dll": {}
+        }
+      },
       "IRepository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1280,6 +1299,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "AutoMapper": "16.1.1",
+          "DBModel": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.27",
           "Microsoft.EntityFrameworkCore": "8.0.27",
           "Microsoft.EntityFrameworkCore.Abstractions": "8.0.27",
@@ -3235,6 +3255,11 @@
       "path": "../IBussines/IBussines.csproj",
       "msbuildProject": "../IBussines/IBussines.csproj"
     },
+    "IoC/1.0.0": {
+      "type": "project",
+      "path": "../IoC/IoC.csproj",
+      "msbuildProject": "../IoC/IoC.csproj"
+    },
     "IRepository/1.0.0": {
       "type": "project",
       "path": "../IRepository/IRepository.csproj",
@@ -3283,6 +3308,7 @@
       "Constantes >= 1.0.0",
       "IBussines >= 1.0.0",
       "IService >= 1.0.0",
+      "IoC >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.27",
       "Microsoft.EntityFrameworkCore >= 8.0.27",
       "Microsoft.EntityFrameworkCore.Abstractions >= 8.0.27",
@@ -3337,6 +3363,9 @@
             },
             "D:\\jose\\Minimarked\\BackendMinimarket\\IBussines\\IBussines.csproj": {
               "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\IBussines\\IBussines.csproj"
+            },
+            "D:\\jose\\Minimarked\\BackendMinimarket\\IoC\\IoC.csproj": {
+              "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\IoC\\IoC.csproj"
             },
             "D:\\jose\\Minimarked\\BackendMinimarket\\IService\\IService.csproj": {
               "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\IService\\IService.csproj"
@@ -3430,7 +3459,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

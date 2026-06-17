@@ -12,3 +12,4 @@ D:\jose\Minimarked\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\refint\UtilSe
 D:\jose\Minimarked\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.pdb
 D:\jose\Minimarked\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\ref\UtilSecurity.dll
+D:\jose\Minimarked\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.sourcelink.json

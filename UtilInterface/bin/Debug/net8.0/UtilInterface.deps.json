@@ -9,6 +9,7 @@
       "UtilInterface/1.0.0": {
         "dependencies": {
           "AutoMapper": "16.1.1",
+          "DBModel": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.27",
           "Microsoft.EntityFrameworkCore": "8.0.27",
           "Microsoft.EntityFrameworkCore.Abstractions": "8.0.27",
@@ -592,6 +593,21 @@
             "fileVersion": "7.1.2.41121"
           }
         }
+      },
+      "DBModel/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "16.1.1",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.27",
+          "Microsoft.EntityFrameworkCore": "8.0.27",
+          "Microsoft.EntityFrameworkCore.Abstractions": "8.0.27",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
+        },
+        "runtime": {
+          "DBModel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -866,6 +882,11 @@
       "sha512": "sha512-Thhbe1peAmtSBFaV/ohtykXiZSOkx59Da44hvtWfIMFofDA3M3LaVyjstACf2rKGn4dEDR2cUpRAZ0Xs/zB+7Q==",
       "path": "system.identitymodel.tokens.jwt/7.1.2",
       "hashPath": "system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512"
+    },
+    "DBModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

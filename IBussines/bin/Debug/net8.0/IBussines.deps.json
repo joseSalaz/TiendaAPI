@@ -663,6 +663,7 @@
       "UtilInterface/1.0.0": {
         "dependencies": {
           "AutoMapper": "16.1.1",
+          "DBModel": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.27",
           "Microsoft.EntityFrameworkCore": "8.0.27",
           "Microsoft.EntityFrameworkCore.Abstractions": "8.0.27",

@@ -23,3 +23,4 @@ D:\jose\Minimarked\BackendMinimarket\IBussines\obj\Debug\net8.0\refint\IBussines
 D:\jose\Minimarked\BackendMinimarket\IBussines\obj\Debug\net8.0\IBussines.pdb
 D:\jose\Minimarked\BackendMinimarket\IBussines\obj\Debug\net8.0\IBussines.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\IBussines\obj\Debug\net8.0\ref\IBussines.dll
+D:\jose\Minimarked\BackendMinimarket\IBussines\obj\Debug\net8.0\IBussines.sourcelink.json

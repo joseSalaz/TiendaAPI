@@ -35,3 +35,4 @@ D:\jose\Minimarked\BackendMinimarket\Bussines\obj\Debug\net8.0\refint\Bussines.d
 D:\jose\Minimarked\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.pdb
 D:\jose\Minimarked\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\Bussines\obj\Debug\net8.0\ref\Bussines.dll
+D:\jose\Minimarked\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.sourcelink.json

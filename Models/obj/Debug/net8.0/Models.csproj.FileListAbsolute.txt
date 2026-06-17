@@ -17,3 +17,4 @@ D:\jose\Minimarked\BackendMinimarket\Models\obj\Debug\net8.0\refint\Models.dll
 D:\jose\Minimarked\BackendMinimarket\Models\obj\Debug\net8.0\Models.pdb
 D:\jose\Minimarked\BackendMinimarket\Models\obj\Debug\net8.0\Models.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\Models\obj\Debug\net8.0\ref\Models.dll
+D:\jose\Minimarked\BackendMinimarket\Models\obj\Debug\net8.0\Models.sourcelink.json

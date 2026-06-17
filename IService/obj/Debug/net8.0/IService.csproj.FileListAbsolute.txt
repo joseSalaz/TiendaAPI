@@ -19,3 +19,4 @@ D:\jose\Minimarked\BackendMinimarket\IService\obj\Debug\net8.0\refint\IService.d
 D:\jose\Minimarked\BackendMinimarket\IService\obj\Debug\net8.0\IService.pdb
 D:\jose\Minimarked\BackendMinimarket\IService\obj\Debug\net8.0\IService.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\IService\obj\Debug\net8.0\ref\IService.dll
+D:\jose\Minimarked\BackendMinimarket\IService\obj\Debug\net8.0\IService.sourcelink.json

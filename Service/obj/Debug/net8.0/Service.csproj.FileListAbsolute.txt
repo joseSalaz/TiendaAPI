@@ -27,3 +27,4 @@ D:\jose\Minimarked\BackendMinimarket\Service\obj\Debug\net8.0\refint\Service.dll
 D:\jose\Minimarked\BackendMinimarket\Service\obj\Debug\net8.0\Service.pdb
 D:\jose\Minimarked\BackendMinimarket\Service\obj\Debug\net8.0\Service.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\Service\obj\Debug\net8.0\ref\Service.dll
+D:\jose\Minimarked\BackendMinimarket\Service\obj\Debug\net8.0\Service.sourcelink.json

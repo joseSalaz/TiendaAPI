@@ -29,14 +29,11 @@
     <ProjectReference Include="..\Bussines\Bussines.csproj" />
     <ProjectReference Include="..\Constantes\Constantes.csproj" />
     <ProjectReference Include="..\IBussines\IBussines.csproj" />
+    <ProjectReference Include="..\IoC\IoC.csproj" />
     <ProjectReference Include="..\IService\IService.csproj" />
     <ProjectReference Include="..\Service\Service.csproj" />
     <ProjectReference Include="..\UtilMaper\UtilMapper.csproj" />
     <ProjectReference Include="..\UtilSecurity\UtilSecurity.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

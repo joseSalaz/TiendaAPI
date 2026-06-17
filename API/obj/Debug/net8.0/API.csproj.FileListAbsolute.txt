@@ -149,3 +149,6 @@ D:\jose\Minimarked\BackendMinimarket\API\obj\Debug\net8.0\API.genruntimeconfig.c
 D:\jose\Minimarked\BackendMinimarket\API\obj\Debug\net8.0\ref\API.dll
 D:\jose\Minimarked\BackendMinimarket\API\bin\Debug\net8.0\API.xml
 D:\jose\Minimarked\BackendMinimarket\API\obj\Debug\net8.0\API.xml
+D:\jose\Minimarked\BackendMinimarket\API\bin\Debug\net8.0\IoC.dll
+D:\jose\Minimarked\BackendMinimarket\API\bin\Debug\net8.0\IoC.pdb
+D:\jose\Minimarked\BackendMinimarket\API\obj\Debug\net8.0\API.sourcelink.json

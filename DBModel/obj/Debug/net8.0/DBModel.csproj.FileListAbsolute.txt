@@ -12,3 +12,4 @@ D:\jose\Minimarked\BackendMinimarket\DBModel\obj\Debug\net8.0\refint\DBModel.dll
 D:\jose\Minimarked\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.pdb
 D:\jose\Minimarked\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\DBModel\obj\Debug\net8.0\ref\DBModel.dll
+D:\jose\Minimarked\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.sourcelink.json

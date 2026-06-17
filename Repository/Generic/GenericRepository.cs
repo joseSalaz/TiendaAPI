@@ -1,215 +1,79 @@
-﻿using Constantes;
+﻿using DBModel.Models;
 using Microsoft.EntityFrameworkCore;
-using Models.Comon;
-using System.Linq.Expressions;
-using System.Net;
+using UtilInterface;
 
-
-namespace Repository.Generic
+namespace Repository
 {
-    public class GenericRepository<TEntity> where TEntity : class
+    public class GenericRepository<TEntity> :
+        ICRUDRepositorio<TEntity>
+        where TEntity : class
     {
-        //internal LibreriaSaberContext db = new LibreriaSaberContext();
-        //internal DbSet<TEntity> dbSet;
-        //public GenericRepository()
-        //{
-        //    try
-        //    {
+        protected readonly _TiendaDbContext _context;
+        protected readonly DbSet<TEntity> _dbSet;
 
-        //        this.dbSet = db.Set<TEntity>();
+        public GenericRepository(
+            _TiendaDbContext context)
+        {
+            _context = context;
+            _dbSet = context.Set<TEntity>();
+        }
 
-        //    }
-        //    catch (Exception ex)
-        //    {
+        public virtual async Task<List<TEntity>> GetAllAsync()
+        {
+            return await _dbSet.ToListAsync();
+        }
 
+        public virtual async Task<TEntity?> GetByIdAsync(object id)
+        {
+            return await _dbSet.FindAsync(id);
+        }
 
-        //        throw ex;
+        public virtual async Task<TEntity> CreateAsync(
+            TEntity entity)
+        {
+            await _dbSet.AddAsync(entity);
+            return entity;
+        }
 
-        //    }
-        //}
+        public virtual Task<TEntity> UpdateAsync(
+            TEntity entity)
+        {
+            _dbSet.Update(entity);
+            return Task.FromResult(entity);
+        }
 
+        public virtual async Task DeleteAsync(object id)
+        {
+            var entity = await _dbSet.FindAsync(id);
 
-        //public virtual IQueryable<TEntity> Include(params Expression<Func<TEntity, object>>[] navigationProperties)
-        //{
-        //    IQueryable<TEntity> query = dbSet;
-        //    foreach (var navigationProperty in navigationProperties)
-        //    {
-        //        query = query.Include(navigationProperty);
-        //    }
-        //    return query;
-        //}
+            if (entity != null)
+                _dbSet.Remove(entity);
+        }
 
+        public virtual async Task<List<TEntity>>
+            InsertMultipleAsync(List<TEntity> lista)
+        {
+            await _dbSet.AddRangeAsync(lista);
+            return lista;
+        }
 
-        //public void Dispose()
-        //{
-        //    GC.SuppressFinalize(this);
-        //}
+        public virtual Task<List<TEntity>>
+            UpdateMultipleAsync(List<TEntity> lista)
+        {
+            _dbSet.UpdateRange(lista);
+            return Task.FromResult(lista);
+        }
 
-        //public virtual List<TEntity> GetAll()
-        //{
-        //    try
-        //    {
-        //        IQueryable<TEntity> query = dbSet;
-        //        return query.ToList();
+        public virtual Task DeleteMultipleItemsAsync(
+            List<TEntity> lista)
+        {
+            _dbSet.RemoveRange(lista);
+            return Task.CompletedTask;
+        }
 
-        //    }
-        //    catch (DbUpdateException ex)
-        //    {
-        //        CustomException exx = new CustomException("Error en base de datos", (int)HttpStatusCode.InternalServerError, ConstantesResultado.ERROR_NO_CONTROLADO_CODIGO, "No Controlado", ex);
-        //        throw exx;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        CustomException exx = new CustomException("Ocurrio un error al obtener toda la lista", (int)HttpStatusCode.InternalServerError, ConstantesResultado.ERROR_NO_CONTROLADO_CODIGO, "No Controlado", ex);
-        //        throw exx;
-        //    }
-        //}
-
-
-        //public virtual TEntity GetById(object id)
-        //{
-        //    try
-        //    {
-
-        //        return dbSet.Find(id);
-
-        //    }
-        //    catch (DbUpdateException ex)
-        //    {
-        //        CustomException exx = new CustomException("Error en base de datos", (int)HttpStatusCode.InternalServerError, ConstantesResultado.ERROR_NO_CONTROLADO_CODIGO, "No Controlado", ex);
-        //        throw exx;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        CustomException exx = new CustomException("Ocurrio un error al buscar el registro", (int)HttpStatusCode.InternalServerError, ConstantesResultado.ERROR_NO_CONTROLADO_CODIGO, "No Controlado", ex);
-        //        throw exx;
-        //    }
-        //}
-
-        //public virtual TEntity Create(TEntity entity)
-        //{
-        //    try
-        //    {
-        //        dbSet.Add(entity);
-        //        db.SaveChanges();
-        //        return entity;
-        //    }
-        //    catch (DbUpdateException ex)
-        //    {
-        //        CustomException exx = new CustomException("Error en base de datos", (int)HttpStatusCode.InternalServerError, ConstantesResultado.ERROR_NO_CONTROLADO_CODIGO, "No Controlado", ex);
-        //        throw exx;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        CustomException exx = new CustomException("Error al registrar", (int)HttpStatusCode.InternalServerError, ConstantesResultado.ERROR_NO_CONTROLADO_CODIGO, "No Controlado", ex);
-        //        throw exx;
-        //    }
-        //}
-
-        //public virtual TEntity Update(TEntity entity)
-        //{
-        //    try
-        //    {
-        //        dbSet.Update(entity);
-        //        db.SaveChanges();
-        //        return entity;
-
-        //    }
-        //    catch (DbUpdateException ex)
-        //    {
-        //        CustomException exx = new CustomException("Error en base de datos", (int)HttpStatusCode.InternalServerError, ConstantesResultado.ERROR_NO_CONTROLADO_CODIGO, "No Controlado", ex);
-        //        throw exx;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        CustomException exx = new CustomException("Error al actualizar", (int)HttpStatusCode.InternalServerError, ConstantesResultado.ERROR_NO_CONTROLADO_CODIGO, "No Controlado", ex);
-        //        throw exx;
-        //    }
-        //}
-
-
-        //public virtual int Delete(object id)
-        //{
-        //    try
-        //    {
-
-        //        TEntity entityToDelete = dbSet.Find(id);
-
-
-        //        dbSet.Remove(entityToDelete);
-
-        //        return db.SaveChanges();
-        //    }
-        //    catch (DbUpdateException ex)
-        //    {
-        //        CustomException exx = new CustomException("Error en base de datos", (int)HttpStatusCode.InternalServerError, ConstantesResultado.ERROR_NO_CONTROLADO_CODIGO, "No Controlado", ex);
-        //        throw exx;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        CustomException exx = new CustomException("Error al eliminar", (int)HttpStatusCode.InternalServerError, ConstantesResultado.ERROR_NO_CONTROLADO_CODIGO, "No Controlado", ex);
-        //        throw exx;
-        //    }
-
-        //}
-
-        //public virtual int DeleteMultipleItems(List<TEntity> lista)
-        //{
-        //    try
-        //    {
-        //        dbSet.RemoveRange(lista);
-        //        return db.SaveChanges();
-        //    }
-        //    catch (DbUpdateException ex)
-        //    {
-        //        CustomException exx = new CustomException("Error en base de datos", (int)HttpStatusCode.InternalServerError, ConstantesResultado.ERROR_NO_CONTROLADO_CODIGO, "No Controlado", ex);
-        //        throw exx;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        CustomException exx = new CustomException("Error al eliminar multiple", (int)HttpStatusCode.InternalServerError, ConstantesResultado.ERROR_NO_CONTROLADO_CODIGO, "No Controlado", ex);
-        //        throw exx;
-        //    }
-
-        //}
-        //public virtual List<TEntity> InsertMultiple(List<TEntity> lista)
-        //{
-        //    try
-        //    {
-        //        dbSet.AddRange(lista);
-        //        db.SaveChanges();
-        //        return lista;
-        //    }
-        //    catch (DbUpdateException ex)
-        //    {
-        //        CustomException exx = new CustomException("Error en base de datos", (int)HttpStatusCode.InternalServerError, ConstantesResultado.ERROR_NO_CONTROLADO_CODIGO, "No Controlado", ex);
-        //        throw exx;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        CustomException exx = new CustomException("Error al eliminar multiple", (int)HttpStatusCode.InternalServerError, ConstantesResultado.ERROR_NO_CONTROLADO_CODIGO, "No Controlado", ex);
-        //        throw exx;
-        //    }
-        //}
-        //public virtual List<TEntity> UpdateMultiple(List<TEntity> lista)
-        //{
-        //    try
-        //    {
-        //        dbSet.UpdateRange(lista);
-        //        db.SaveChanges();
-        //        return lista;
-        //    }
-        //    catch (DbUpdateException ex)
-        //    {
-        //        CustomException exx = new CustomException("Error en base de datos", (int)HttpStatusCode.InternalServerError, ConstantesResultado.ERROR_NO_CONTROLADO_CODIGO, "No Controlado", ex);
-        //        throw exx;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        CustomException exx = new CustomException("Error al eliminar multiple", (int)HttpStatusCode.InternalServerError, ConstantesResultado.ERROR_NO_CONTROLADO_CODIGO, "No Controlado", ex);
-        //        throw exx;
-        //    }
-        //}
+        public Task<List<TEntity>> GetAutoCompleteAsync(string query)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
-
