@@ -3,48 +3,16 @@
   "WorkspaceRootPath": "D:\\jose\\Minimarked\\BackendMinimarket\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|d:\\jose\\minimarked\\backendminimarket\\api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|d:\\jose\\minimarked\\backendminimarket\\utilinterface\\icrudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|solutionrelative:utilinterface\\icrudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|d:\\jose\\minimarked\\backendminimarket\\models\\requestresponse\\productorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\requestresponse\\productorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|d:\\jose\\minimarked\\backendminimarket\\bussines\\productobussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|solutionrelative:bussines\\productobussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|d:\\jose\\minimarked\\backendminimarket\\utilinterface\\icrudbussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|solutionrelative:utilinterface\\icrudbussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|d:\\jose\\minimarked\\backendminimarket\\api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|d:\\jose\\minimarked\\backendminimarket\\models\\requestresponse\\productoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\requestresponse\\productoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F8DF322-C94A-32A3-5636-5E0072EF9B46}|UtilMaper\\UtilMapper.csproj|d:\\jose\\minimarked\\backendminimarket\\utilmaper\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F8DF322-C94A-32A3-5636-5E0072EF9B46}|UtilMaper\\UtilMapper.csproj|solutionrelative:utilmaper\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|d:\\jose\\minimarked\\backendminimarket\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8111FC8-217C-2E62-688A-264CB6B56368}|DBModel\\DBModel.csproj|d:\\jose\\minimarked\\backendminimarket\\dbmodel\\dbmodels\\_tiendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8111FC8-217C-2E62-688A-264CB6B56368}|DBModel\\DBModel.csproj|solutionrelative:dbmodel\\dbmodels\\_tiendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|d:\\jose\\minimarked\\backendminimarket\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|d:\\jose\\minimarked\\backendminimarket\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A6292841-3436-1F7D-1CE0-80C600CBF4F5}|IBussines\\IBussines.csproj|d:\\jose\\minimarked\\backendminimarket\\ibussines\\iproductobussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6292841-3436-1F7D-1CE0-80C600CBF4F5}|IBussines\\IBussines.csproj|solutionrelative:ibussines\\iproductobussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE8F3387-4CAB-64ED-80E3-18319C5DCD81}|Repository\\Repository.csproj|d:\\jose\\minimarked\\backendminimarket\\repository\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,16 +23,24 @@
       "RelativeMoniker": "D:0:0:{24FCE484-BD07-EACC-FBE5-A82A7A96DAE4}|IRepository\\IRepository.csproj|solutionrelative:irepository\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{73BAF1A9-7C51-4A90-89C2-7E0D4603CFB2}|UtilPaginados\\UtilPaginados.csproj|d:\\jose\\minimarked\\backendminimarket\\utilpaginados\\queryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73BAF1A9-7C51-4A90-89C2-7E0D4603CFB2}|UtilPaginados\\UtilPaginados.csproj|solutionrelative:utilpaginados\\queryableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73BAF1A9-7C51-4A90-89C2-7E0D4603CFB2}|UtilPaginados\\UtilPaginados.csproj|d:\\jose\\minimarked\\backendminimarket\\utilpaginados\\requestresponse\\paginacionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73BAF1A9-7C51-4A90-89C2-7E0D4603CFB2}|UtilPaginados\\UtilPaginados.csproj|solutionrelative:utilpaginados\\requestresponse\\paginacionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73BAF1A9-7C51-4A90-89C2-7E0D4603CFB2}|UtilPaginados\\UtilPaginados.csproj|d:\\jose\\minimarked\\backendminimarket\\utilpaginados\\requestresponse\\paginacionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73BAF1A9-7C51-4A90-89C2-7E0D4603CFB2}|UtilPaginados\\UtilPaginados.csproj|solutionrelative:utilpaginados\\requestresponse\\paginacionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E63E74C7-7E02-4B64-B18E-3549BBD99D9C}|IoC\\IoC.csproj|d:\\jose\\minimarked\\backendminimarket\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E63E74C7-7E02-4B64-B18E-3549BBD99D9C}|IoC\\IoC.csproj|solutionrelative:ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6292841-3436-1F7D-1CE0-80C600CBF4F5}|IBussines\\IBussines.csproj|d:\\jose\\minimarked\\backendminimarket\\ibussines\\iproductobussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6292841-3436-1F7D-1CE0-80C600CBF4F5}|IBussines\\IBussines.csproj|solutionrelative:ibussines\\iproductobussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|d:\\jose\\minimarked\\backendminimarket\\utilinterface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|solutionrelative:utilinterface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8111FC8-217C-2E62-688A-264CB6B56368}|DBModel\\DBModel.csproj|d:\\jose\\minimarked\\backendminimarket\\dbmodel\\dbmodels\\_tiendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8111FC8-217C-2E62-688A-264CB6B56368}|DBModel\\DBModel.csproj|solutionrelative:dbmodel\\dbmodels\\_tiendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE8F3387-4CAB-64ED-80E3-18319C5DCD81}|Repository\\Repository.csproj|d:\\jose\\minimarked\\backendminimarket\\repository\\generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,6 +49,42 @@
     {
       "AbsoluteMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|d:\\jose\\minimarked\\backendminimarket\\utilinterface\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|solutionrelative:utilinterface\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|d:\\jose\\minimarked\\backendminimarket\\utilinterface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|solutionrelative:utilinterface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|d:\\jose\\minimarked\\backendminimarket\\utilinterface\\icrudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|solutionrelative:utilinterface\\icrudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|d:\\jose\\minimarked\\backendminimarket\\utilinterface\\icrudbussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|solutionrelative:utilinterface\\icrudbussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|d:\\jose\\minimarked\\backendminimarket\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|d:\\jose\\minimarked\\backendminimarket\\models\\requestresponse\\productorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\requestresponse\\productorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|d:\\jose\\minimarked\\backendminimarket\\models\\requestresponse\\productoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\requestresponse\\productoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F8DF322-C94A-32A3-5636-5E0072EF9B46}|UtilMaper\\UtilMapper.csproj|d:\\jose\\minimarked\\backendminimarket\\utilmaper\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F8DF322-C94A-32A3-5636-5E0072EF9B46}|UtilMaper\\UtilMapper.csproj|solutionrelative:utilmaper\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|d:\\jose\\minimarked\\backendminimarket\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|d:\\jose\\minimarked\\backendminimarket\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|d:\\jose\\minimarked\\backendminimarket\\models\\comon\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,93 +102,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ICRUDRepository.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilInterface\\ICRUDRepository.cs",
-              "RelativeDocumentMoniker": "UtilInterface\\ICRUDRepository.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilInterface\\ICRUDRepository.cs",
-              "RelativeToolTip": "UtilInterface\\ICRUDRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAVAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "PaginacionResponse.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPaginados\\RequestResponse\\PaginacionResponse.cs",
+              "RelativeDocumentMoniker": "UtilPaginados\\RequestResponse\\PaginacionResponse.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPaginados\\RequestResponse\\PaginacionResponse.cs",
+              "RelativeToolTip": "UtilPaginados\\RequestResponse\\PaginacionResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:45:29.467Z",
+              "WhenOpened": "2026-06-20T17:04:57.103Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductoController.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\Controllers\\ProductoController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\ProductoController.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\Controllers\\ProductoController.cs",
-              "RelativeToolTip": "API\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBYAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "PaginacionRequest.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPaginados\\RequestResponse\\PaginacionRequest.cs",
+              "RelativeDocumentMoniker": "UtilPaginados\\RequestResponse\\PaginacionRequest.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPaginados\\RequestResponse\\PaginacionRequest.cs",
+              "RelativeToolTip": "UtilPaginados\\RequestResponse\\PaginacionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T18:21:44.397Z",
+              "WhenOpened": "2026-06-20T17:04:47.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProductoResponse.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\RequestResponse\\ProductoResponse.cs",
-              "RelativeDocumentMoniker": "Models\\RequestResponse\\ProductoResponse.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\RequestResponse\\ProductoResponse.cs",
-              "RelativeToolTip": "Models\\RequestResponse\\ProductoResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswCYAAAAtAAAAAAAAAA==",
+              "Title": "QueryableExtensions.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPaginados\\QueryableExtensions.cs",
+              "RelativeDocumentMoniker": "UtilPaginados\\QueryableExtensions.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPaginados\\QueryableExtensions.cs",
+              "RelativeToolTip": "UtilPaginados\\QueryableExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:32:52.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICRUDBussines.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilInterface\\ICRUDBussines.cs",
-              "RelativeDocumentMoniker": "UtilInterface\\ICRUDBussines.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilInterface\\ICRUDBussines.cs",
-              "RelativeToolTip": "UtilInterface\\ICRUDBussines.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA8wDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:49:45.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductoRequest.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\RequestResponse\\ProductoRequest.cs",
-              "RelativeDocumentMoniker": "Models\\RequestResponse\\ProductoRequest.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\RequestResponse\\ProductoRequest.cs",
-              "RelativeToolTip": "Models\\RequestResponse\\ProductoRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:32:37.149Z",
+              "WhenOpened": "2026-06-20T17:04:07.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ProductoRepository.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\ProductoRepository.cs",
+              "RelativeToolTip": "Repository\\ProductoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:35:43.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ProductoBussines.cs",
               "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\ProductoBussines.cs",
               "RelativeDocumentMoniker": "Bussines\\ProductoBussines.cs",
               "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\ProductoBussines.cs",
               "RelativeToolTip": "Bussines\\ProductoBussines.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAA8wHAAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvyUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-16T17:38:48.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "IProductoRepository.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\IRepository\\IProductoRepository.cs",
+              "RelativeDocumentMoniker": "IRepository\\IProductoRepository.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\IRepository\\IProductoRepository.cs",
+              "RelativeToolTip": "IRepository\\IProductoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:36:00.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProductoBussines.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\IBussines\\IProductoBussines.cs",
+              "RelativeDocumentMoniker": "IBussines\\IProductoBussines.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\IBussines\\IProductoBussines.cs",
+              "RelativeToolTip": "IBussines\\IProductoBussines.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:38:42.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ProductoController.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "API\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:21:44.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\Generic\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Generic\\GenericRepository.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\Generic\\GenericRepository.cs",
+              "RelativeToolTip": "Repository\\Generic\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:35:22.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\IoC\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "IoC\\DependencyInjection.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\IoC\\DependencyInjection.cs",
+              "RelativeToolTip": "IoC\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:16:09.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_TiendaDbContext.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModels\\_TiendaDbContext.cs",
+              "RelativeDocumentMoniker": "DBModel\\DBModels\\_TiendaDbContext.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModels\\_TiendaDbContext.cs",
+              "RelativeToolTip": "DBModel\\DBModels\\_TiendaDbContext.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T01:43:16.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:18:42.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "AutoMapperProfiles.cs",
               "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilMaper\\AutoMapperProfiles.cs",
               "RelativeDocumentMoniker": "UtilMaper\\AutoMapperProfiles.cs",
@@ -189,111 +275,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilInterface\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "UtilInterface\\UnitOfWork.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilInterface\\UnitOfWork.cs",
+              "RelativeToolTip": "UtilInterface\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T18:18:42.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_TiendaDbContext.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModels\\_TiendaDbContext.cs",
-              "RelativeDocumentMoniker": "DBModel\\DBModels\\_TiendaDbContext.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModels\\_TiendaDbContext.cs",
-              "RelativeToolTip": "DBModel\\DBModels\\_TiendaDbContext.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAmwDkAAABxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T01:43:16.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\appsettings.json",
-              "RelativeDocumentMoniker": "API\\appsettings.json",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\appsettings.json",
-              "RelativeToolTip": "API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-16T18:26:50.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "API\\appsettings.Development.json",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\appsettings.Development.json",
-              "RelativeToolTip": "API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-16T18:27:11.687Z",
+              "WhenOpened": "2026-06-16T18:09:27.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "IProductoRepository.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\IRepository\\IProductoRepository.cs",
-              "RelativeDocumentMoniker": "IRepository\\IProductoRepository.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\IRepository\\IProductoRepository.cs",
-              "RelativeToolTip": "IRepository\\IProductoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:36:00.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductoRepository.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\ProductoRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ProductoRepository.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\ProductoRepository.cs",
-              "RelativeToolTip": "Repository\\ProductoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:35:43.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\IoC\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "IoC\\DependencyInjection.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\IoC\\DependencyInjection.cs",
-              "RelativeToolTip": "IoC\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T18:16:09.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IProductoBussines.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\IBussines\\IProductoBussines.cs",
-              "RelativeDocumentMoniker": "IBussines\\IProductoBussines.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\IBussines\\IProductoBussines.cs",
-              "RelativeToolTip": "IBussines\\IProductoBussines.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:38:42.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilInterface\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "UtilInterface\\IUnitOfWork.cs",
@@ -306,33 +301,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\Generic\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Generic\\GenericRepository.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\Generic\\GenericRepository.cs",
-              "RelativeToolTip": "Repository\\Generic\\GenericRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowAcAAAASAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "ICRUDRepository.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilInterface\\ICRUDRepository.cs",
+              "RelativeDocumentMoniker": "UtilInterface\\ICRUDRepository.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilInterface\\ICRUDRepository.cs",
+              "RelativeToolTip": "UtilInterface\\ICRUDRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:35:22.585Z",
+              "WhenOpened": "2026-06-16T17:45:29.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICRUDBussines.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilInterface\\ICRUDBussines.cs",
+              "RelativeDocumentMoniker": "UtilInterface\\ICRUDBussines.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilInterface\\ICRUDBussines.cs",
+              "RelativeToolTip": "UtilInterface\\ICRUDBussines.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwCcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:49:45.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductoRequest.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\RequestResponse\\ProductoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\RequestResponse\\ProductoRequest.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\RequestResponse\\ProductoRequest.cs",
+              "RelativeToolTip": "Models\\RequestResponse\\ProductoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:32:37.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilInterface\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "UtilInterface\\UnitOfWork.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilInterface\\UnitOfWork.cs",
-              "RelativeToolTip": "UtilInterface\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Title": "ProductoResponse.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\RequestResponse\\ProductoResponse.cs",
+              "RelativeDocumentMoniker": "Models\\RequestResponse\\ProductoResponse.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\RequestResponse\\ProductoResponse.cs",
+              "RelativeToolTip": "Models\\RequestResponse\\ProductoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswCYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T18:09:27.63Z",
+              "WhenOpened": "2026-06-16T17:32:52.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-16T18:26:50.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "API\\appsettings.Development.json",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\appsettings.Development.json",
+              "RelativeToolTip": "API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-16T18:27:11.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "CustomException.cs",
               "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\Comon\\CustomException.cs",
               "RelativeDocumentMoniker": "Models\\Comon\\CustomException.cs",
@@ -345,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Constantes\\Class1.cs",
               "RelativeDocumentMoniker": "Constantes\\Class1.cs",

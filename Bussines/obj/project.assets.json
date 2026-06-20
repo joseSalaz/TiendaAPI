@@ -1047,7 +1047,8 @@
           "Microsoft.EntityFrameworkCore.Analyzers": "8.0.27",
           "Models": "1.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11",
-          "UtilInterface": "1.0.0"
+          "UtilInterface": "1.0.0",
+          "UtilPaginados": "1.0.0"
         },
         "compile": {
           "bin/placeholder/IBussines.dll": {}
@@ -1198,6 +1199,19 @@
         },
         "runtime": {
           "bin/placeholder/UtilMapper.dll": {}
+        }
+      },
+      "UtilPaginados/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.27"
+        },
+        "compile": {
+          "bin/placeholder/UtilPaginados.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UtilPaginados.dll": {}
         }
       },
       "UtilSecurity/1.0.0": {
@@ -2804,6 +2818,11 @@
       "path": "../UtilMaper/UtilMapper.csproj",
       "msbuildProject": "../UtilMaper/UtilMapper.csproj"
     },
+    "UtilPaginados/1.0.0": {
+      "type": "project",
+      "path": "../UtilPaginados/UtilPaginados.csproj",
+      "msbuildProject": "../UtilPaginados/UtilPaginados.csproj"
+    },
     "UtilSecurity/1.0.0": {
       "type": "project",
       "path": "../UtilSecurity/UtilSecurity.csproj",
@@ -2828,6 +2847,7 @@
       "Repository >= 1.0.0",
       "Service >= 1.0.0",
       "UtilMapper >= 1.0.0",
+      "UtilPaginados >= 1.0.0",
       "UtilSecurity >= 1.0.0"
     ]
   },
@@ -2887,6 +2907,9 @@
             },
             "D:\\jose\\Minimarked\\BackendMinimarket\\UtilMaper\\UtilMapper.csproj": {
               "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilMaper\\UtilMapper.csproj"
+            },
+            "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPaginados\\UtilPaginados.csproj": {
+              "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPaginados\\UtilPaginados.csproj"
             },
             "D:\\jose\\Minimarked\\BackendMinimarket\\UtilSecurity\\UtilSecurity.csproj": {
               "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilSecurity\\UtilSecurity.csproj"

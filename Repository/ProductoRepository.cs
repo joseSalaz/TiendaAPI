@@ -13,6 +13,10 @@ namespace Repository
             : base(context)
         {
         }
+        public IQueryable<Producto> GetQueryable()
+        {
+            return _context.Productos;
+        }
 
         public async Task<List<Producto>>
             GetAutoCompleteAsync(

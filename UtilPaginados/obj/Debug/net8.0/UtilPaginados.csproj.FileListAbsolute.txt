@@ -1,0 +1,13 @@
+D:\jose\Minimarked\BackendMinimarket\UtilPaginados\bin\Debug\net8.0\UtilPaginados.deps.json
+D:\jose\Minimarked\BackendMinimarket\UtilPaginados\bin\Debug\net8.0\UtilPaginados.dll
+D:\jose\Minimarked\BackendMinimarket\UtilPaginados\bin\Debug\net8.0\UtilPaginados.pdb
+D:\jose\Minimarked\BackendMinimarket\UtilPaginados\obj\Debug\net8.0\UtilPaginados.csproj.AssemblyReference.cache
+D:\jose\Minimarked\BackendMinimarket\UtilPaginados\obj\Debug\net8.0\UtilPaginados.GeneratedMSBuildEditorConfig.editorconfig
+D:\jose\Minimarked\BackendMinimarket\UtilPaginados\obj\Debug\net8.0\UtilPaginados.AssemblyInfoInputs.cache
+D:\jose\Minimarked\BackendMinimarket\UtilPaginados\obj\Debug\net8.0\UtilPaginados.AssemblyInfo.cs
+D:\jose\Minimarked\BackendMinimarket\UtilPaginados\obj\Debug\net8.0\UtilPaginados.csproj.CoreCompileInputs.cache
+D:\jose\Minimarked\BackendMinimarket\UtilPaginados\obj\Debug\net8.0\UtilPaginados.sourcelink.json
+D:\jose\Minimarked\BackendMinimarket\UtilPaginados\obj\Debug\net8.0\UtilPaginados.dll
+D:\jose\Minimarked\BackendMinimarket\UtilPaginados\obj\Debug\net8.0\refint\UtilPaginados.dll
+D:\jose\Minimarked\BackendMinimarket\UtilPaginados\obj\Debug\net8.0\UtilPaginados.pdb
+D:\jose\Minimarked\BackendMinimarket\UtilPaginados\obj\Debug\net8.0\ref\UtilPaginados.dll

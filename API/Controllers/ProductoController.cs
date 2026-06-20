@@ -26,6 +26,13 @@ namespace API.Controllers
 
             return Ok(lista);
         }
+        [HttpGet("paget/all")]
+        public async Task<IActionResult> GetAllProductsPaged(int pagina = 1, int cantidad = 10)
+        {
+            return Ok(await _productoBussines.GetAllProductsPaged(
+                pagina,
+                cantidad));
+        }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(

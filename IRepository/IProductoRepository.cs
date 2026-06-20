@@ -8,5 +8,6 @@ namespace IRepository
         Task<List<Producto>>
             GetAutoCompleteAsync(
                 string query);
+        IQueryable<Producto> GetQueryable();
     }
 }

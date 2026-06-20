@@ -22,6 +22,7 @@
           "Repository": "1.0.0",
           "Service": "1.0.0",
           "UtilMapper": "1.0.0",
+          "UtilPaginados": "1.0.0",
           "UtilSecurity": "1.0.0"
         },
         "runtime": {
@@ -642,7 +643,8 @@
           "Microsoft.EntityFrameworkCore.Abstractions": "8.0.27",
           "Models": "1.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11",
-          "UtilInterface": "1.0.0"
+          "UtilInterface": "1.0.0",
+          "UtilPaginados": "1.0.0"
         },
         "runtime": {
           "IBussines.dll": {
@@ -769,6 +771,17 @@
         },
         "runtime": {
           "UtilMapper.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UtilPaginados/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.27"
+        },
+        "runtime": {
+          "UtilPaginados.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1109,6 +1122,11 @@
       "sha512": ""
     },
     "UtilMapper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UtilPaginados/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -32,6 +32,7 @@
     <ProjectReference Include="..\Repository\Repository.csproj" />
     <ProjectReference Include="..\Service\Service.csproj" />
     <ProjectReference Include="..\UtilMaper\UtilMapper.csproj" />
+    <ProjectReference Include="..\UtilPaginados\UtilPaginados.csproj" />
     <ProjectReference Include="..\UtilSecurity\UtilSecurity.csproj" />
   </ItemGroup>
 

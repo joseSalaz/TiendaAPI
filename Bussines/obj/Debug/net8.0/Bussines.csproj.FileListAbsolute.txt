@@ -36,3 +36,5 @@ D:\jose\Minimarked\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.pdb
 D:\jose\Minimarked\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\Bussines\obj\Debug\net8.0\ref\Bussines.dll
 D:\jose\Minimarked\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.sourcelink.json
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\UtilPaginados.dll
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\UtilPaginados.pdb

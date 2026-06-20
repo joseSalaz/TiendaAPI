@@ -36,3 +36,5 @@ D:\jose\Minimarked\BackendMinimarket\IoC\obj\Debug\net8.0\IoC.dll
 D:\jose\Minimarked\BackendMinimarket\IoC\obj\Debug\net8.0\refint\IoC.dll
 D:\jose\Minimarked\BackendMinimarket\IoC\obj\Debug\net8.0\IoC.pdb
 D:\jose\Minimarked\BackendMinimarket\IoC\obj\Debug\net8.0\ref\IoC.dll
+D:\jose\Minimarked\BackendMinimarket\IoC\bin\Debug\net8.0\UtilPaginados.dll
+D:\jose\Minimarked\BackendMinimarket\IoC\bin\Debug\net8.0\UtilPaginados.pdb

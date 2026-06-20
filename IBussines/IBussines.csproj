@@ -28,6 +28,7 @@
     <ProjectReference Include="..\IService\IService.csproj" />
     <ProjectReference Include="..\Models\Models.csproj" />
     <ProjectReference Include="..\UtilInterface\UtilInterface.csproj" />
+    <ProjectReference Include="..\UtilPaginados\UtilPaginados.csproj" />
   </ItemGroup>
 
 </Project>

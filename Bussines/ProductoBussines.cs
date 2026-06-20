@@ -2,8 +2,10 @@
 using DBModel.Models;
 using IBussines;
 using IRepository;
+using Microsoft.EntityFrameworkCore;
 using Models.RequestResponse;
 using UtilInterface;
+using UtilPaginados.RequestResponse;
 
 namespace Bussines
 {
@@ -28,6 +30,26 @@ namespace Bussines
             var lista = await _productoRepository.GetAllAsync();
 
             return _mapper.Map<List<ProductoResponse>>(lista);
+        }
+
+        public async Task<PaginacionResponse<ProductoResponse>> GetAllProductsPaged(int pagina, int cantidad)
+        {
+            var query = _productoRepository
+                .GetQueryable()
+                .AsNoTracking();
+
+            var resultado = await query.PaginarAsync(
+                pagina,
+                cantidad);
+
+            return new PaginacionResponse<ProductoResponse>
+            {
+                Items = _mapper.Map<List<ProductoResponse>>(resultado.Items),
+                Total = resultado.Total,
+                PaginaActual = resultado.PaginaActual,
+                TotalPaginas = resultado.TotalPaginas,
+                CantidadPorPagina = resultado.CantidadPorPagina
+            };
         }
 
         public async Task<ProductoResponse?> GetByIdAsync(object id)
