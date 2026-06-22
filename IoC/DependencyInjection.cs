@@ -25,6 +25,14 @@ namespace IoC
                 <IProductoBussines,
                 ProductoBussines>();
 
+            services.AddScoped
+                <ICajaSesionRepository, 
+                CajaSesionRepository>();
+
+            services.AddScoped
+                <ICajaSesionBussines, 
+                CajaSesionBussines>();
+
             return services;
         }
     }

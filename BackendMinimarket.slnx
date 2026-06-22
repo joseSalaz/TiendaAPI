@@ -22,10 +22,11 @@
     <Project Path="Constantes/Constantes.csproj" />
     <Project Path="UtilInterface/UtilInterface.csproj" />
     <Project Path="UtilMaper/UtilMapper.csproj" />
-    <Project Path="UtilPaginados/UtilPaginados.csproj" Id="73baf1a9-7c51-4a90-89c2-7e0d4603cfb2" />
     <Project Path="UtilSecurity/UtilSecurity.csproj" />
   </Folder>
-  <Folder Name="/07 ANOTACIONES/" />
+  <Folder Name="/07 ANOTACIONES/">
+    <File Path="conexionDB.txt" />
+  </Folder>
   <Folder Name="/08 IoC/">
     <Project Path="IoC/IoC.csproj" Id="e63e74c7-7e02-4b64-b18e-3549bbd99d9c" />
   </Folder>
