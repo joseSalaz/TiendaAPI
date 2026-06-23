@@ -1,5 +1,69 @@
 [
   {
+    "ContainingType": "API.Controllers.CajaController",
+    "Method": "ObtenerSesionActiva",
+    "RelativePath": "api/Caja/{cajaId}/sesion-activa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cajaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.CajaController",
+    "Method": "AbrirCaja",
+    "RelativePath": "api/Caja/abrir",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Models.RequestResponse.AperturaCajaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.CajaController",
+    "Method": "CalcularVuelto",
+    "RelativePath": "api/Caja/calcular-vuelto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Models.RequestResponse.VueltoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.CajaController",
+    "Method": "CerrarCaja",
+    "RelativePath": "api/Caja/cerrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Models.RequestResponse.CierreCajaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API.Controllers.ProductoController",
     "Method": "GetAll",
     "RelativePath": "api/Producto",

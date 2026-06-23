@@ -9,6 +9,122 @@
     "version": "v1"
   },
   "paths": {
+    "/api/Caja/{cajaId}/sesion-activa": {
+      "get": {
+        "tags": [
+          "Caja"
+        ],
+        "parameters": [
+          {
+            "name": "cajaId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Caja/abrir": {
+      "post": {
+        "tags": [
+          "Caja"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AperturaCajaRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AperturaCajaRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AperturaCajaRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Caja/cerrar": {
+      "post": {
+        "tags": [
+          "Caja"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CierreCajaRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CierreCajaRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CierreCajaRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Caja/calcular-vuelto": {
+      "post": {
+        "tags": [
+          "Caja"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VueltoRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VueltoRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VueltoRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Producto": {
       "get": {
         "tags": [
@@ -158,6 +274,50 @@
   },
   "components": {
     "schemas": {
+      "AperturaCajaRequest": {
+        "type": "object",
+        "properties": {
+          "cajaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "usuarioAperturaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "montoInicial": {
+            "type": "number",
+            "format": "double"
+          },
+          "observaciones": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CierreCajaRequest": {
+        "type": "object",
+        "properties": {
+          "cajaSesionId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "usuarioCierreId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "montoCierre": {
+            "type": "number",
+            "format": "double"
+          },
+          "observaciones": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "ProductoRequest": {
         "type": "object",
         "properties": {
@@ -223,6 +383,20 @@
           "fechaActualizacion": {
             "type": "string",
             "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VueltoRequest": {
+        "type": "object",
+        "properties": {
+          "total": {
+            "type": "number",
+            "format": "double"
+          },
+          "montoRecibido": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false
