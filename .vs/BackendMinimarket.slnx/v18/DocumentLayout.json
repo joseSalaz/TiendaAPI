@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\api\\controllers\\cajacontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\controllers\\cajacontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14424ED2-8C93-1F2F-1212-95ACDB98A69B}|07 ANOTACIONES{14424ED2-8C93-1F2F-1212-95ACDB98A69B}|C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\conexionDB.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{14424ED2-8C93-1F2F-1212-95ACDB98A69B}|07 ANOTACIONES{14424ED2-8C93-1F2F-1212-95ACDB98A69B}|solutionrelative:conexionDB.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE8F3387-4CAB-64ED-80E3-18319C5DCD81}|Repository\\Repository.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\repository\\cajasesionrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE8F3387-4CAB-64ED-80E3-18319C5DCD81}|Repository\\Repository.csproj|solutionrelative:repository\\cajasesionrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8111FC8-217C-2E62-688A-264CB6B56368}|DBModel\\DBModel.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\dbmodel\\dbmodels\\_tiendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8111FC8-217C-2E62-688A-264CB6B56368}|DBModel\\DBModel.csproj|solutionrelative:dbmodel\\dbmodels\\_tiendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\utilinterface\\icrudbussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|solutionrelative:utilinterface\\icrudbussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6292841-3436-1F7D-1CE0-80C600CBF4F5}|IBussines\\IBussines.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\ibussines\\icajasesionbussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6292841-3436-1F7D-1CE0-80C600CBF4F5}|IBussines\\IBussines.csproj|solutionrelative:ibussines\\icajasesionbussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\bussines\\cajasesionbussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|solutionrelative:bussines\\cajasesionbussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8111FC8-217C-2E62-688A-264CB6B56368}|DBModel\\DBModel.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\dbmodel\\dbmodels\\_tiendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8111FC8-217C-2E62-688A-264CB6B56368}|DBModel\\DBModel.csproj|solutionrelative:dbmodel\\dbmodels\\_tiendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\api\\controllers\\cajacontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\controllers\\cajacontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8F3387-4CAB-64ED-80E3-18319C5DCD81}|Repository\\Repository.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\repository\\cajasesionrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8F3387-4CAB-64ED-80E3-18319C5DCD81}|Repository\\Repository.csproj|solutionrelative:repository\\cajasesionrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +43,12 @@
       "RelativeMoniker": "D:0:0:{E63E74C7-7E02-4B64-B18E-3549BBD99D9C}|IoC\\IoC.csproj|solutionrelative:ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\models\\comon\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\comon\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\bussines\\productobussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|solutionrelative:bussines\\productobussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6292841-3436-1F7D-1CE0-80C600CBF4F5}|IBussines\\IBussines.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\ibussines\\icajasesionbussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6292841-3436-1F7D-1CE0-80C600CBF4F5}|IBussines\\IBussines.csproj|solutionrelative:ibussines\\icajasesionbussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\models\\requestresponse\\cajasesionerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,14 +131,6 @@
       "RelativeMoniker": "D:0:0:{79237768-6468-577E-7514-2C8F376B0DDA}|UtilSecurity\\UtilSecurity.csproj|solutionrelative:utilsecurity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14424ED2-8C93-1F2F-1212-95ACDB98A69B}|07 ANOTACIONES{14424ED2-8C93-1F2F-1212-95ACDB98A69B}|C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\conexionDB.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{14424ED2-8C93-1F2F-1212-95ACDB98A69B}|07 ANOTACIONES{14424ED2-8C93-1F2F-1212-95ACDB98A69B}|solutionrelative:conexionDB.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\utilinterface\\icrudbussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|solutionrelative:utilinterface\\icrudbussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\utilinterface\\icrudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|solutionrelative:utilinterface\\icrudrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -162,7 +162,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,184 +170,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductoResponse.cs",
-              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\ProductoResponse.cs",
-              "RelativeDocumentMoniker": "Models\\RequestResponse\\ProductoResponse.cs",
-              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\ProductoResponse.cs",
-              "RelativeToolTip": "Models\\RequestResponse\\ProductoResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswCYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:32:52.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IoC\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "IoC\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IoC\\DependencyInjection.cs",
-              "RelativeToolTip": "IoC\\DependencyInjection.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T18:16:09.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "CajaController .cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\API\\Controllers\\CajaController .cs",
               "RelativeDocumentMoniker": "API\\Controllers\\CajaController .cs",
               "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\API\\Controllers\\CajaController .cs",
               "RelativeToolTip": "API\\Controllers\\CajaController .cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-21T20:37:57.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "VueltoRequest.cs",
-              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\VueltoRequest.cs",
-              "RelativeDocumentMoniker": "Models\\RequestResponse\\VueltoRequest.cs",
-              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\VueltoRequest.cs",
-              "RelativeToolTip": "Models\\RequestResponse\\VueltoRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T20:01:30.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductoBussines.cs",
-              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Bussines\\ProductoBussines.cs",
-              "RelativeDocumentMoniker": "Bussines\\ProductoBussines.cs",
-              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Bussines\\ProductoBussines.cs",
-              "RelativeToolTip": "Bussines\\ProductoBussines.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwGUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:38:48.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CustomException.cs",
-              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\Comon\\CustomException.cs",
-              "RelativeDocumentMoniker": "Models\\Comon\\CustomException.cs",
-              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\Comon\\CustomException.cs",
-              "RelativeToolTip": "Models\\Comon\\CustomException.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:30:15.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CajaSesionBussines.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Bussines\\CajaSesionBussines.cs",
               "RelativeDocumentMoniker": "Bussines\\CajaSesionBussines.cs",
               "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Bussines\\CajaSesionBussines.cs",
               "RelativeToolTip": "Bussines\\CajaSesionBussines.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAewFoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-21T20:22:54.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CajaSesionRepository .cs",
-              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Repository\\CajaSesionRepository .cs",
-              "RelativeDocumentMoniker": "Repository\\CajaSesionRepository .cs",
-              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Repository\\CajaSesionRepository .cs",
-              "RelativeToolTip": "Repository\\CajaSesionRepository .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T20:05:11.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T18:18:42.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_TiendaDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\DBModel\\DBModels\\_TiendaDbContext.cs",
-              "RelativeDocumentMoniker": "DBModel\\DBModels\\_TiendaDbContext.cs",
-              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\DBModel\\DBModels\\_TiendaDbContext.cs",
-              "RelativeToolTip": "DBModel\\DBModels\\_TiendaDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T01:43:16.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProductoRequest.cs",
-              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\ProductoRequest.cs",
-              "RelativeDocumentMoniker": "Models\\RequestResponse\\ProductoRequest.cs",
-              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\ProductoRequest.cs",
-              "RelativeToolTip": "Models\\RequestResponse\\ProductoRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:32:37.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CajaSesioneResponse.cs",
-              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\CajaSesioneResponse.cs",
-              "RelativeDocumentMoniker": "Models\\RequestResponse\\CajaSesioneResponse.cs",
-              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\CajaSesioneResponse.cs",
-              "RelativeToolTip": "Models\\RequestResponse\\CajaSesioneResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T19:59:57.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "ICajaSesionBussines.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IBussines\\ICajaSesionBussines.cs",
               "RelativeDocumentMoniker": "IBussines\\ICajaSesionBussines.cs",
               "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IBussines\\ICajaSesionBussines.cs",
               "RelativeToolTip": "IBussines\\ICajaSesionBussines.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-21T20:17:47.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CajaSesioneRequest.cs",
-              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\CajaSesioneRequest.cs",
-              "RelativeDocumentMoniker": "Models\\RequestResponse\\CajaSesioneRequest.cs",
-              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\CajaSesioneRequest.cs",
-              "RelativeToolTip": "Models\\RequestResponse\\CajaSesioneRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ICRUDBussines.cs",
+              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilInterface\\ICRUDBussines.cs",
+              "RelativeDocumentMoniker": "UtilInterface\\ICRUDBussines.cs",
+              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilInterface\\ICRUDBussines.cs",
+              "RelativeToolTip": "UtilInterface\\ICRUDBussines.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T20:21:35.608Z",
+              "WhenOpened": "2026-06-16T17:49:45.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_TiendaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\DBModel\\DBModels\\_TiendaDbContext.cs",
+              "RelativeDocumentMoniker": "DBModel\\DBModels\\_TiendaDbContext.cs",
+              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\DBModel\\DBModels\\_TiendaDbContext.cs",
+              "RelativeToolTip": "DBModel\\DBModels\\_TiendaDbContext.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswDkAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T01:43:16.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "conexionDB.txt",
+              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\conexionDB.txt",
+              "RelativeDocumentMoniker": "conexionDB.txt",
+              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\conexionDB.txt",
+              "RelativeToolTip": "conexionDB.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-06-21T19:24:52.15Z",
               "EditorCaption": ""
             },
             {
@@ -358,14 +254,134 @@
               "RelativeDocumentMoniker": "API\\Controllers\\ProductoController.cs",
               "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\API\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "API\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwCYAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-16T18:21:44.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomException.cs",
+              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\Comon\\CustomException.cs",
+              "RelativeDocumentMoniker": "Models\\Comon\\CustomException.cs",
+              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\Comon\\CustomException.cs",
+              "RelativeToolTip": "Models\\Comon\\CustomException.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:30:15.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductoBussines.cs",
+              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Bussines\\ProductoBussines.cs",
+              "RelativeDocumentMoniker": "Bussines\\ProductoBussines.cs",
+              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Bussines\\ProductoBussines.cs",
+              "RelativeToolTip": "Bussines\\ProductoBussines.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:38:48.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VueltoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\VueltoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\RequestResponse\\VueltoRequest.cs",
+              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\VueltoRequest.cs",
+              "RelativeToolTip": "Models\\RequestResponse\\VueltoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T20:01:30.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IoC\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "IoC\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IoC\\DependencyInjection.cs",
+              "RelativeToolTip": "IoC\\DependencyInjection.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:16:09.406Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "ProductoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\ProductoResponse.cs",
+              "RelativeDocumentMoniker": "Models\\RequestResponse\\ProductoResponse.cs",
+              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\ProductoResponse.cs",
+              "RelativeToolTip": "Models\\RequestResponse\\ProductoResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswCYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:32:52.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CajaSesionRepository .cs",
+              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Repository\\CajaSesionRepository .cs",
+              "RelativeDocumentMoniker": "Repository\\CajaSesionRepository .cs",
+              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Repository\\CajaSesionRepository .cs",
+              "RelativeToolTip": "Repository\\CajaSesionRepository .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T20:05:11.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T18:18:42.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\ProductoRequest.cs",
+              "RelativeDocumentMoniker": "Models\\RequestResponse\\ProductoRequest.cs",
+              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\ProductoRequest.cs",
+              "RelativeToolTip": "Models\\RequestResponse\\ProductoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:32:37.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CajaSesioneResponse.cs",
+              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\CajaSesioneResponse.cs",
+              "RelativeDocumentMoniker": "Models\\RequestResponse\\CajaSesioneResponse.cs",
+              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\CajaSesioneResponse.cs",
+              "RelativeToolTip": "Models\\RequestResponse\\CajaSesioneResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T19:59:57.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CajaSesioneRequest.cs",
+              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\CajaSesioneRequest.cs",
+              "RelativeDocumentMoniker": "Models\\RequestResponse\\CajaSesioneRequest.cs",
+              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\CajaSesioneRequest.cs",
+              "RelativeToolTip": "Models\\RequestResponse\\CajaSesioneRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T20:21:35.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "AperturaCajaRequest.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\AperturaCajaRequest.cs",
               "RelativeDocumentMoniker": "Models\\RequestResponse\\AperturaCajaRequest.cs",
@@ -373,12 +389,11 @@
               "RelativeToolTip": "Models\\RequestResponse\\AperturaCajaRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T19:56:49.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-21T19:56:49.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "CierreCajaRequest.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\CierreCajaRequest.cs",
               "RelativeDocumentMoniker": "Models\\RequestResponse\\CierreCajaRequest.cs",
@@ -386,12 +401,11 @@
               "RelativeToolTip": "Models\\RequestResponse\\CierreCajaRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T19:58:08.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-21T19:58:08.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "IProductoBussines.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IBussines\\IProductoBussines.cs",
               "RelativeDocumentMoniker": "IBussines\\IProductoBussines.cs",
@@ -399,12 +413,11 @@
               "RelativeToolTip": "IBussines\\IProductoBussines.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:38:42.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T17:38:42.373Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "VueltoResponse.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\RequestResponse\\VueltoResponse.cs",
               "RelativeDocumentMoniker": "Models\\RequestResponse\\VueltoResponse.cs",
@@ -412,12 +425,11 @@
               "RelativeToolTip": "Models\\RequestResponse\\VueltoResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T20:02:06.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-21T20:02:06.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "IProductoRepository.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IRepository\\IProductoRepository.cs",
               "RelativeDocumentMoniker": "IRepository\\IProductoRepository.cs",
@@ -425,12 +437,11 @@
               "RelativeToolTip": "IRepository\\IProductoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:36:00.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T17:36:00.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ICajaSesionRepository.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IRepository\\ICajaSesionRepository.cs",
               "RelativeDocumentMoniker": "IRepository\\ICajaSesionRepository.cs",
@@ -438,12 +449,11 @@
               "RelativeToolTip": "IRepository\\ICajaSesionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T20:03:35.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-21T20:03:35.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "ProductoRepository.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Repository\\ProductoRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ProductoRepository.cs",
@@ -451,25 +461,23 @@
               "RelativeToolTip": "Repository\\ProductoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:35:43.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T17:35:43.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IBussines",
+              "DocumentIndex": 20,
+              "Title": "IBussines.csproj",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IBussines\\IBussines.csproj",
               "RelativeDocumentMoniker": "IBussines\\IBussines.csproj",
               "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IBussines\\IBussines.csproj",
               "RelativeToolTip": "IBussines\\IBussines.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-21T19:35:54.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-21T19:35:54.964Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "DesgloseBillete.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\Comon\\DesgloseBillete.cs",
               "RelativeDocumentMoniker": "Models\\Comon\\DesgloseBillete.cs",
@@ -477,12 +485,11 @@
               "RelativeToolTip": "Models\\Comon\\DesgloseBillete.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T19:53:18.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-21T19:53:18.276Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "AutoMapperProfiles.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilMaper\\AutoMapperProfiles.cs",
               "RelativeDocumentMoniker": "UtilMaper\\AutoMapperProfiles.cs",
@@ -490,25 +497,23 @@
               "RelativeToolTip": "UtilMaper\\AutoMapperProfiles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T00:47:13.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-17T00:47:13.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Bussines",
+              "DocumentIndex": 28,
+              "Title": "Bussines.csproj",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Bussines\\Bussines.csproj",
               "RelativeDocumentMoniker": "Bussines\\Bussines.csproj",
               "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Bussines\\Bussines.csproj",
               "RelativeToolTip": "Bussines\\Bussines.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-21T19:36:09.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-21T19:36:09.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Constantes\\Class1.cs",
               "RelativeDocumentMoniker": "Constantes\\Class1.cs",
@@ -516,38 +521,23 @@
               "RelativeToolTip": "Constantes\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:27:53.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T17:27:53.846Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "conexionDB.txt",
-              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\conexionDB.txt",
-              "RelativeDocumentMoniker": "conexionDB.txt",
-              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\conexionDB.txt",
-              "RelativeToolTip": "conexionDB.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-06-21T19:24:52.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IoC",
+              "Title": "IoC.csproj",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IoC\\IoC.csproj",
               "RelativeDocumentMoniker": "IoC\\IoC.csproj",
               "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IoC\\IoC.csproj",
               "RelativeToolTip": "IoC\\IoC.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-21T19:36:01.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-21T19:36:01.961Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilSecurity\\Class1.cs",
               "RelativeDocumentMoniker": "UtilSecurity\\Class1.cs",
@@ -555,33 +545,19 @@
               "RelativeToolTip": "UtilSecurity\\Class1.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAcwCYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T19:36:03.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-21T19:36:03.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "API",
+              "DocumentIndex": 29,
+              "Title": "API.csproj",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\API\\API.csproj",
               "RelativeDocumentMoniker": "API\\API.csproj",
               "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\API\\API.csproj",
               "RelativeToolTip": "API\\API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-21T19:36:13.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ICRUDBussines.cs",
-              "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilInterface\\ICRUDBussines.cs",
-              "RelativeDocumentMoniker": "UtilInterface\\ICRUDBussines.cs",
-              "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilInterface\\ICRUDBussines.cs",
-              "RelativeToolTip": "UtilInterface\\ICRUDBussines.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAmwDUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:49:45.761Z"
+              "WhenOpened": "2026-06-21T19:36:13.849Z"
             },
             {
               "$type": "Document",
