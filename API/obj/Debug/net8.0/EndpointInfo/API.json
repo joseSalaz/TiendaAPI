@@ -79,7 +79,7 @@
         }
       }
     },
-    "/api/Producto/paged/products": {
+    "/api/Producto/paget/all": {
       "get": {
         "tags": [
           "Producto"

@@ -76,7 +76,7 @@
   {
     "ContainingType": "API.Controllers.ProductoController",
     "Method": "GetAllProductsPaged",
-    "RelativePath": "api/Producto/paged/products",
+    "RelativePath": "api/Producto/paget/all",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

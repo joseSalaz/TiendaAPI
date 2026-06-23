@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\jose\\Minimarked\\BackendMinimarket\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D8111FC8-217C-2E62-688A-264CB6B56368}|DBModel\\DBModel.csproj|d:\\jose\\minimarked\\backendminimarket\\dbmodel\\dbmodels\\_tiendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8111FC8-217C-2E62-688A-264CB6B56368}|DBModel\\DBModel.csproj|solutionrelative:dbmodel\\dbmodels\\_tiendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|d:\\jose\\minimarked\\backendminimarket\\bussines\\productobussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|solutionrelative:bussines\\productobussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +15,16 @@
       "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6292841-3436-1F7D-1CE0-80C600CBF4F5}|IBussines\\IBussines.csproj|d:\\jose\\minimarked\\backendminimarket\\ibussines\\iproductobussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6292841-3436-1F7D-1CE0-80C600CBF4F5}|IBussines\\IBussines.csproj|solutionrelative:ibussines\\iproductobussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE8F3387-4CAB-64ED-80E3-18319C5DCD81}|Repository\\Repository.csproj|d:\\jose\\minimarked\\backendminimarket\\repository\\generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8F3387-4CAB-64ED-80E3-18319C5DCD81}|Repository\\Repository.csproj|solutionrelative:repository\\generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE8F3387-4CAB-64ED-80E3-18319C5DCD81}|Repository\\Repository.csproj|d:\\jose\\minimarked\\backendminimarket\\repository\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE8F3387-4CAB-64ED-80E3-18319C5DCD81}|Repository\\Repository.csproj|solutionrelative:repository\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6292841-3436-1F7D-1CE0-80C600CBF4F5}|IBussines\\IBussines.csproj|d:\\jose\\minimarked\\backendminimarket\\ibussines\\iproductobussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6292841-3436-1F7D-1CE0-80C600CBF4F5}|IBussines\\IBussines.csproj|solutionrelative:ibussines\\iproductobussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24FCE484-BD07-EACC-FBE5-A82A7A96DAE4}|IRepository\\IRepository.csproj|d:\\jose\\minimarked\\backendminimarket\\irepository\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,14 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E63E74C7-7E02-4B64-B18E-3549BBD99D9C}|IoC\\IoC.csproj|d:\\jose\\minimarked\\backendminimarket\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E63E74C7-7E02-4B64-B18E-3549BBD99D9C}|IoC\\IoC.csproj|solutionrelative:ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8111FC8-217C-2E62-688A-264CB6B56368}|DBModel\\DBModel.csproj|d:\\jose\\minimarked\\backendminimarket\\dbmodel\\dbmodels\\_tiendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8111FC8-217C-2E62-688A-264CB6B56368}|DBModel\\DBModel.csproj|solutionrelative:dbmodel\\dbmodels\\_tiendadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE8F3387-4CAB-64ED-80E3-18319C5DCD81}|Repository\\Repository.csproj|d:\\jose\\minimarked\\backendminimarket\\repository\\generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE8F3387-4CAB-64ED-80E3-18319C5DCD81}|Repository\\Repository.csproj|solutionrelative:repository\\generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{609C5F1B-49B5-BFB3-C969-1A86DFFB58FE}|UtilInterface\\UtilInterface.csproj|d:\\jose\\minimarked\\backendminimarket\\utilinterface\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,20 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PaginacionResponse.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPaginados\\RequestResponse\\PaginacionResponse.cs",
-              "RelativeDocumentMoniker": "UtilPaginados\\RequestResponse\\PaginacionResponse.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPaginados\\RequestResponse\\PaginacionResponse.cs",
-              "RelativeToolTip": "UtilPaginados\\RequestResponse\\PaginacionResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T17:04:57.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "PaginacionRequest.cs",
               "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPaginados\\RequestResponse\\PaginacionRequest.cs",
               "RelativeDocumentMoniker": "UtilPaginados\\RequestResponse\\PaginacionRequest.cs",
@@ -131,12 +118,11 @@
               "RelativeToolTip": "UtilPaginados\\RequestResponse\\PaginacionRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T17:04:47.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-20T17:04:47.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "QueryableExtensions.cs",
               "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPaginados\\QueryableExtensions.cs",
               "RelativeDocumentMoniker": "UtilPaginados\\QueryableExtensions.cs",
@@ -144,38 +130,36 @@
               "RelativeToolTip": "UtilPaginados\\QueryableExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T17:04:07.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-20T17:04:07.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductoRepository.cs",
               "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\ProductoRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ProductoRepository.cs",
               "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\ProductoRepository.cs",
               "RelativeToolTip": "Repository\\ProductoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:35:43.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T17:35:43.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductoBussines.cs",
               "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\ProductoBussines.cs",
               "RelativeDocumentMoniker": "Bussines\\ProductoBussines.cs",
               "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\ProductoBussines.cs",
               "RelativeToolTip": "Bussines\\ProductoBussines.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-16T17:38:48.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IProductoRepository.cs",
               "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\IRepository\\IProductoRepository.cs",
               "RelativeDocumentMoniker": "IRepository\\IProductoRepository.cs",
@@ -183,12 +167,11 @@
               "RelativeToolTip": "IRepository\\IProductoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:36:00.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T17:36:00.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "IProductoBussines.cs",
               "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\IBussines\\IProductoBussines.cs",
               "RelativeDocumentMoniker": "IBussines\\IProductoBussines.cs",
@@ -196,38 +179,60 @@
               "RelativeToolTip": "IBussines\\IProductoBussines.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:38:42.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T17:38:42.373Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\ProductoController.cs",
               "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "API\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T18:21:44.397Z",
+              "WhenOpened": "2026-06-16T18:21:44.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_TiendaDbContext.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModels\\_TiendaDbContext.cs",
+              "RelativeDocumentMoniker": "DBModel\\DBModels\\_TiendaDbContext.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModels\\_TiendaDbContext.cs",
+              "RelativeToolTip": "DBModel\\DBModels\\_TiendaDbContext.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAzwDsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T01:43:16.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
+              "Title": "PaginacionResponse.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPaginados\\RequestResponse\\PaginacionResponse.cs",
+              "RelativeDocumentMoniker": "UtilPaginados\\RequestResponse\\PaginacionResponse.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPaginados\\RequestResponse\\PaginacionResponse.cs",
+              "RelativeToolTip": "UtilPaginados\\RequestResponse\\PaginacionResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T17:04:57.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\Generic\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Generic\\GenericRepository.cs",
               "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\Generic\\GenericRepository.cs",
               "RelativeToolTip": "Repository\\Generic\\GenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:35:22.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T17:35:22.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\IoC\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "IoC\\DependencyInjection.cs",
@@ -235,21 +240,7 @@
               "RelativeToolTip": "IoC\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T18:16:09.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_TiendaDbContext.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModels\\_TiendaDbContext.cs",
-              "RelativeDocumentMoniker": "DBModel\\DBModels\\_TiendaDbContext.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModels\\_TiendaDbContext.cs",
-              "RelativeToolTip": "DBModel\\DBModels\\_TiendaDbContext.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAuwDoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T01:43:16.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T18:16:09.406Z"
             },
             {
               "$type": "Document",
@@ -261,8 +252,7 @@
               "RelativeToolTip": "API\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAIBJwJUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T18:18:42.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T18:18:42.382Z"
             },
             {
               "$type": "Document",
@@ -274,8 +264,7 @@
               "RelativeToolTip": "UtilMaper\\AutoMapperProfiles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T00:47:13.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-17T00:47:13.079Z"
             },
             {
               "$type": "Document",
@@ -287,8 +276,7 @@
               "RelativeToolTip": "UtilInterface\\UnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T18:09:27.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T18:09:27.63Z"
             },
             {
               "$type": "Document",
@@ -300,8 +288,7 @@
               "RelativeToolTip": "UtilInterface\\IUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T18:09:03.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T18:09:03.943Z"
             },
             {
               "$type": "Document",
@@ -313,8 +300,7 @@
               "RelativeToolTip": "UtilInterface\\ICRUDRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:45:29.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T17:45:29.467Z"
             },
             {
               "$type": "Document",
@@ -326,8 +312,7 @@
               "RelativeToolTip": "UtilInterface\\ICRUDBussines.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAuwCcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:49:45.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T17:49:45.761Z"
             },
             {
               "$type": "Document",
@@ -339,8 +324,7 @@
               "RelativeToolTip": "Models\\RequestResponse\\ProductoRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:32:37.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T17:32:37.149Z"
             },
             {
               "$type": "Document",
@@ -352,8 +336,7 @@
               "RelativeToolTip": "Models\\RequestResponse\\ProductoResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswCYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:32:52.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T17:32:52.46Z"
             },
             {
               "$type": "Document",
@@ -365,8 +348,7 @@
               "RelativeToolTip": "API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-16T18:26:50.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T18:26:50.102Z"
             },
             {
               "$type": "Document",
@@ -378,8 +360,7 @@
               "RelativeToolTip": "API\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-16T18:27:11.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T18:27:11.687Z"
             },
             {
               "$type": "Document",
@@ -391,8 +372,7 @@
               "RelativeToolTip": "Models\\Comon\\CustomException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:30:15.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T17:30:15.585Z"
             },
             {
               "$type": "Document",
@@ -404,8 +384,7 @@
               "RelativeToolTip": "Constantes\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T17:27:53.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-16T17:27:53.846Z"
             }
           ]
         }
