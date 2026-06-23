@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilMaper\\UtilMapper.csproj": {}
+    "D:\\jose\\Minimarked\\BackendMinimarket\\UtilMaper\\UtilMapper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Constantes\\Constantes.csproj": {
+    "D:\\jose\\Minimarked\\BackendMinimarket\\Constantes\\Constantes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Constantes\\Constantes.csproj",
+        "projectUniqueName": "D:\\jose\\Minimarked\\BackendMinimarket\\Constantes\\Constantes.csproj",
         "projectName": "Constantes",
-        "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Constantes\\Constantes.csproj",
-        "packagesPath": "C:\\Users\\cesae\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Constantes\\obj\\",
+        "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\Constantes\\Constantes.csproj",
+        "packagesPath": "C:\\Users\\Jose Salazar\\.nuget\\packages\\",
+        "outputPath": "D:\\jose\\Minimarked\\BackendMinimarket\\Constantes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cesae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jose Salazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -109,20 +109,20 @@
         }
       }
     },
-    "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\DBModel\\DBModel.csproj": {
+    "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\DBModel\\DBModel.csproj",
+        "projectUniqueName": "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModel.csproj",
         "projectName": "DBModel",
-        "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\DBModel\\DBModel.csproj",
-        "packagesPath": "C:\\Users\\cesae\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\DBModel\\obj\\",
+        "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModel.csproj",
+        "packagesPath": "C:\\Users\\Jose Salazar\\.nuget\\packages\\",
+        "outputPath": "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cesae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jose Salazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -214,20 +214,20 @@
         }
       }
     },
-    "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\Models.csproj": {
+    "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\cesae\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\obj\\",
+        "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Jose Salazar\\.nuget\\packages\\",
+        "outputPath": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cesae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jose Salazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -243,11 +243,11 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Constantes\\Constantes.csproj": {
-                "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Constantes\\Constantes.csproj"
+              "D:\\jose\\Minimarked\\BackendMinimarket\\Constantes\\Constantes.csproj": {
+                "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\Constantes\\Constantes.csproj"
               },
-              "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\DBModel\\DBModel.csproj": {
-                "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\DBModel\\DBModel.csproj"
+              "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModel.csproj": {
+                "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModel.csproj"
               }
             }
           }
@@ -326,20 +326,20 @@
         }
       }
     },
-    "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilMaper\\UtilMapper.csproj": {
+    "D:\\jose\\Minimarked\\BackendMinimarket\\UtilMaper\\UtilMapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilMaper\\UtilMapper.csproj",
+        "projectUniqueName": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilMaper\\UtilMapper.csproj",
         "projectName": "UtilMapper",
-        "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilMaper\\UtilMapper.csproj",
-        "packagesPath": "C:\\Users\\cesae\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilMaper\\obj\\",
+        "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilMaper\\UtilMapper.csproj",
+        "packagesPath": "C:\\Users\\Jose Salazar\\.nuget\\packages\\",
+        "outputPath": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilMaper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cesae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jose Salazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -355,11 +355,11 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\DBModel\\DBModel.csproj": {
-                "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\DBModel\\DBModel.csproj"
+              "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModel.csproj": {
+                "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModel.csproj"
               },
-              "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\Models.csproj"
+              "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\Models.csproj": {
+                "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\Models.csproj"
               }
             }
           }

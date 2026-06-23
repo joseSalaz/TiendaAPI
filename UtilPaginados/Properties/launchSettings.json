@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "UtilPaginados": {
+      "commandName": "Project",
+      "workingDirectory": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPaginados\\bin"
+    },
+    "Perfil 1": {
+      "commandName": "Executable"
+    }
+  }
+}

@@ -2548,23 +2548,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cesae\\.nuget\\packages\\": {},
+    "C:\\Users\\Jose Salazar\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilSecurity\\UtilSecurity.csproj",
+      "projectUniqueName": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilSecurity\\UtilSecurity.csproj",
       "projectName": "UtilSecurity",
-      "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilSecurity\\UtilSecurity.csproj",
-      "packagesPath": "C:\\Users\\cesae\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilSecurity\\obj\\",
+      "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilSecurity\\UtilSecurity.csproj",
+      "packagesPath": "C:\\Users\\Jose Salazar\\.nuget\\packages\\",
+      "outputPath": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilSecurity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\cesae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jose Salazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
