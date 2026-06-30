@@ -1,4 +1,4 @@
-﻿using DBModel.Models;
+﻿using DBModel.DBModels;
 using UtilInterface;
 
 namespace IRepository
@@ -13,12 +13,12 @@ namespace IRepository
         /// <summary>Obtiene la sesión abierta activa de una caja (estado = ABIERTA).</summary>
         Task<CajaSesione?> ObtenerSesionAbiertaPorCajaAsync(int cajaId);
 
-        
+        Task<CajaSesione?> GetSesionAbiertaPorCajaAsync(int cajaId);
         Task<CajaSesione> AbrirCajaAsync(CajaSesione cajaSesion);
 
         Task<CajaSesione> CerrarCajaAsync(CajaSesione cajaSesion);
 
-        
+
         Task<CajaSesione?> ObtenerPorIdAsync(int id);
     }
 }

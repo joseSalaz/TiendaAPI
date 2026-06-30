@@ -9,7 +9,7 @@ using UtilPaginados.RequestResponse;
 
 namespace IBussines
 {
-    public interface ICajaSesionBussines : ICRUDBussnies<CajaSesioneResponse, CajaSesioneRequest>
+    public interface ICajaSesionBussines
     {
         Task<CajaSesioneResponse> AbrirCajaAsync(AperturaCajaRequest request);
         Task<CajaSesioneResponse> CerrarCajaAsync(CierreCajaRequest request);

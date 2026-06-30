@@ -1,5 +1,7 @@
-﻿using DBModel.Models;
+﻿using DBModel.DBModels;
+using Models.RequestResponse;
 using UtilInterface;
+using UtilPaginados.RequestResponse;
 
 namespace IRepository
 {
@@ -9,5 +11,7 @@ namespace IRepository
             GetAutoCompleteAsync(
                 string query);
         IQueryable<Producto> GetQueryable();
+        Task<Producto?> GetByIdConPresentacionesAsync(int id);
+        Task<PaginacionResponse<ProductoVentaResponse>> BuscarParaVentaAsync(ProductoVentaFiltroRequest filtro);
     }
 }

@@ -6,11 +6,11 @@ namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CajaController : ControllerBase
+    public class CajaSessionController : ControllerBase
     {
         private readonly ICajaSesionBussines _cajaSesionBussines;
 
-        public CajaController(ICajaSesionBussines cajaSesionBussines)
+        public CajaSessionController(ICajaSesionBussines cajaSesionBussines)
         {
             _cajaSesionBussines = cajaSesionBussines;
         }
@@ -32,26 +32,23 @@ namespace API.Controllers
             return Ok(sesion);
         }
 
-       
+
         [HttpPost("abrir")]
         public async Task<IActionResult> AbrirCaja([FromBody] AperturaCajaRequest request)
         {
-            var sesion = await _cajaSesionBussines.AbrirCajaAsync(request);
-            return CreatedAtAction(
-                nameof(ObtenerSesionActiva),
-                new { cajaId = sesion.CajaId },
-                sesion);
+            var response = await _cajaSesionBussines.AbrirCajaAsync(request);
+            return Ok(response);
         }
 
-      
         [HttpPost("cerrar")]
         public async Task<IActionResult> CerrarCaja([FromBody] CierreCajaRequest request)
         {
-            var sesion = await _cajaSesionBussines.CerrarCajaAsync(request);
-            return Ok(sesion);
+            var response = await _cajaSesionBussines.CerrarCajaAsync(request);
+            return Ok(response);
         }
 
-     
+
+
         [HttpPost("calcular-vuelto")]
         public IActionResult CalcularVuelto([FromBody] VueltoRequest request)
         {

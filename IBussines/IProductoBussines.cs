@@ -14,5 +14,9 @@ namespace IBussines
         Task<PaginacionResponse<ProductoResponse>> GetAllProductsPaged(
            int pagina,
            int cantidad);
+        Task<ProductoResponse> CreateProductosStock(ProductoRequest request);
+        Task<ProductoResponse?> GetByIdAsync(int id);
+        Task<ProductoResponse> UpdateProductoConPresentaciones(ProductoRequest request);
+        Task<PaginacionResponse<ProductoVentaResponse>> BuscarParaVentaAsync(ProductoVentaFiltroRequest filtro);
     }
 }

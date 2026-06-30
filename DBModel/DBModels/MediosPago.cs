@@ -4,8 +4,11 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
+/// <summary>
+/// Formas de pago aceptadas: efectivo, tarjeta, Yape, Plin, transferencia.
+/// </summary>
 [Table("medios_pago")]
 [Index("Codigo", Name = "medios_pago_codigo_key", IsUnique = true)]
 public partial class MediosPago
@@ -39,6 +42,9 @@ public partial class MediosPago
 
     [Column("fecha_creacion")]
     public DateTime FechaCreacion { get; set; }
+
+    [InverseProperty("MedioPago")]
+    public virtual ICollection<CajaMovimiento> CajaMovimientos { get; set; } = new List<CajaMovimiento>();
 
     [InverseProperty("MedioPago")]
     public virtual ICollection<VentaPago> VentaPagos { get; set; } = new List<VentaPago>();

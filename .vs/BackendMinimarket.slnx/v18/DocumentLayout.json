@@ -3,7 +3,20 @@
   "WorkspaceRootPath": "D:\\jose\\Minimarked\\BackendMinimarket\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|d:\\jose\\minimarked\\backendminimarket\\bussines\\ventabussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|solutionrelative:bussines\\ventabussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE8F3387-4CAB-64ED-80E3-18319C5DCD81}|Repository\\Repository.csproj|d:\\jose\\minimarked\\backendminimarket\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE8F3387-4CAB-64ED-80E3-18319C5DCD81}|Repository\\Repository.csproj|solutionrelative:repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24FCE484-BD07-EACC-FBE5-A82A7A96DAE4}|IRepository\\IRepository.csproj|d:\\jose\\minimarked\\backendminimarket\\irepository\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24FCE484-BD07-EACC-FBE5-A82A7A96DAE4}|IRepository\\IRepository.csproj|solutionrelative:irepository\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|d:\\jose\\minimarked\\backendminimarket\\models\\requestresponse\\registrarventarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\requestresponse\\registrarventarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -21,13 +34,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ClienteRepository.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\ClienteRepository.cs",
+              "RelativeToolTip": "Repository\\ClienteRepository.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAmwEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T02:46:27.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IClienteRepository.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\IRepository\\IClienteRepository.cs",
+              "RelativeDocumentMoniker": "IRepository\\IClienteRepository.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\IRepository\\IClienteRepository.cs",
+              "RelativeToolTip": "IRepository\\IClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T02:46:21.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrarVentaRequest.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\RequestResponse\\RegistrarVentaRequest.cs",
+              "RelativeDocumentMoniker": "Models\\RequestResponse\\RegistrarVentaRequest.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\RequestResponse\\RegistrarVentaRequest.cs",
+              "RelativeToolTip": "Models\\RequestResponse\\RegistrarVentaRequest.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAxwCwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T02:45:22.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
-              "ViewState": "AgIAALMBAAAAAAAAAAAcwKsBAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-06-23T16:22:37.785Z",
+              "Title": "VentaBussines.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\VentaBussines.cs",
+              "RelativeDocumentMoniker": "Bussines\\VentaBussines.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\VentaBussines.cs",
+              "RelativeToolTip": "Bussines\\VentaBussines.cs",
+              "ViewState": "AgIAACIBAAAAAAAAAAD4vzwBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T02:35:05.474Z",
               "EditorCaption": ""
             }
           ]

@@ -4,10 +4,10 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
 /// <summary>
-/// Pista de auditoría de envíos a SUNAT
+/// Pista de auditoría de envíos a SUNAT. JSON enviado, respuesta, CDR.
 /// </summary>
 [Table("documentos_electronicos")]
 [Index("TipoDocumento", "Serie", "Correlativo", Name = "documentos_electronicos_tipo_documento_serie_correlativo_key", IsUnique = true)]

@@ -1,3 +1,6 @@
 Host=localhost;Port=5432;Database=firstdatabase;Username=postgres;Password=ea5aio5ue5ao6
 
 Host=localhost;Port=5432;Database=Tienda_DB;Username=postgres;Password=1234
+
+
+Scaffold-DbContext "Host=localhost;Port=5432;Database=Tienda_DB;Username=postgres;Password=1234" Npgsql.EntityFrameworkCore.PostgreSQL -Project DBModel -StartupProject API -OutputDir DBModels -ContextDir DBModels -Context _TiendaDbContext -Schema public -Force -NoOnConfiguring -DataAnnotations

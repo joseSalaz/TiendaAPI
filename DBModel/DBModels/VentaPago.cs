@@ -4,8 +4,11 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
+/// <summary>
+/// Métodos de pago usados en cada venta. Soporta múltiples pagos.
+/// </summary>
 [Table("venta_pagos")]
 public partial class VentaPago
 {

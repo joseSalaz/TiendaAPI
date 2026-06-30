@@ -54,3 +54,5 @@ D:\jose\Minimarked\BackendMinimarket\Repository\obj\Debug\net8.0\refint\Reposito
 D:\jose\Minimarked\BackendMinimarket\Repository\obj\Debug\net8.0\Repository.pdb
 D:\jose\Minimarked\BackendMinimarket\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\Repository\obj\Debug\net8.0\ref\Repository.dll
+D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\UtilPaginados.dll
+D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\UtilPaginados.pdb

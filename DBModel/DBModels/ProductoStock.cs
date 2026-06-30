@@ -4,10 +4,10 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
 /// <summary>
-/// Stock individual por producto y sucursal
+/// Stock real por producto y sucursal. Permite stock independiente por local.
 /// </summary>
 [Table("producto_stock")]
 [Index("ProductoId", Name = "idx_producto_stock_producto")]

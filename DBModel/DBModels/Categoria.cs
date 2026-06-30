@@ -4,8 +4,11 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
+/// <summary>
+/// Agrupación lógica de productos para organizar el catálogo. Ej: Bebidas, Lácteos.
+/// </summary>
 [Table("categorias")]
 [Index("Codigo", Name = "categorias_codigo_key", IsUnique = true)]
 public partial class Categoria

@@ -4,8 +4,11 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
+/// <summary>
+/// Registro de clientes. Soporta anónimo (VARIOS) cuando el cliente no da datos.
+/// </summary>
 [Table("clientes")]
 public partial class Cliente
 {

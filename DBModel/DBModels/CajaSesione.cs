@@ -4,10 +4,10 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
 /// <summary>
-/// Control de turnos de caja (apertura/cierre)
+/// Control de turnos de caja: apertura/cierre, monto inicial, monto final, diferencia.
 /// </summary>
 [Table("caja_sesiones")]
 [Index("FechaApertura", Name = "idx_caja_sesiones_fecha", AllDescending = true)]
@@ -54,6 +54,9 @@ public partial class CajaSesione
     [ForeignKey("CajaId")]
     [InverseProperty("CajaSesiones")]
     public virtual Caja Caja { get; set; } = null!;
+
+    [InverseProperty("CajaSesion")]
+    public virtual ICollection<CajaMovimiento> CajaMovimientos { get; set; } = new List<CajaMovimiento>();
 
     [ForeignKey("UsuarioAperturaId")]
     [InverseProperty("CajaSesioneUsuarioAperturas")]

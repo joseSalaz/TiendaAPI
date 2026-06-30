@@ -4,8 +4,11 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
+/// <summary>
+/// Terminales de cobro por sucursal. Una sucursal puede tener varias cajas activas.
+/// </summary>
 [Table("cajas")]
 [Index("SucursalId", "Numero", Name = "cajas_sucursal_id_numero_key", IsUnique = true)]
 public partial class Caja
@@ -31,6 +34,9 @@ public partial class Caja
 
     [Column("fecha_creacion")]
     public DateTime FechaCreacion { get; set; }
+
+    [InverseProperty("Caja")]
+    public virtual ICollection<CajaMovimiento> CajaMovimientos { get; set; } = new List<CajaMovimiento>();
 
     [InverseProperty("Caja")]
     public virtual ICollection<CajaSesione> CajaSesiones { get; set; } = new List<CajaSesione>();

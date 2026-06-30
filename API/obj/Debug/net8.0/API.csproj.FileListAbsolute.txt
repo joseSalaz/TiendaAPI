@@ -310,3 +310,4 @@ D:\jose\Minimarked\BackendMinimarket\API\obj\Debug\net8.0\API.xml
 D:\jose\Minimarked\BackendMinimarket\API\obj\Debug\net8.0\API.pdb
 D:\jose\Minimarked\BackendMinimarket\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\API\obj\Debug\net8.0\ref\API.dll
+D:\jose\Minimarked\BackendMinimarket\API\bin\Debug\net8.0\Newtonsoft.Json.dll

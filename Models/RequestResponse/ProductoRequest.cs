@@ -1,4 +1,5 @@
-﻿using DBModel.Models;
+﻿
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -42,5 +43,15 @@ namespace Models.RequestResponse
         public DateTime FechaCreacion { get; set; }
 
         public DateTime FechaActualizacion { get; set; }
+        public Boolean ManejaVencimiento { get; set; }
+        public List<ProductoPresentacionRequest> Presentaciones { get; set; } = new();
+    }
+
+
+    public class ProductoFormDataRequest
+    {
+        public string ProductoJson { get; set; } = null!;
+
+        public IFormFile? Imagen { get; set; }
     }
 }

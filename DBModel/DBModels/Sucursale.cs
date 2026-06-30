@@ -4,10 +4,10 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
 /// <summary>
-/// Puntos de venta (sucursales)
+/// Sucursales o puntos de venta. El sistema soporta múltiples sucursales con stock independiente.
 /// </summary>
 [Table("sucursales")]
 [Index("Codigo", Name = "sucursales_codigo_key", IsUnique = true)]
@@ -39,11 +39,27 @@ public partial class Sucursale
     [Column("fecha_creacion")]
     public DateTime FechaCreacion { get; set; }
 
+    [Column("empresa_id")]
+    public int EmpresaId { get; set; }
+
+    [InverseProperty("Sucursal")]
+    public virtual ICollection<CajaMovimiento> CajaMovimientos { get; set; } = new List<CajaMovimiento>();
+
     [InverseProperty("Sucursal")]
     public virtual ICollection<Caja> Cajas { get; set; } = new List<Caja>();
 
     [InverseProperty("Sucursal")]
     public virtual ICollection<Compra> Compras { get; set; } = new List<Compra>();
+
+    [InverseProperty("Sucursal")]
+    public virtual ICollection<ComprobanteSeries> ComprobanteSeries { get; set; } = new List<ComprobanteSeries>();
+
+    [ForeignKey("EmpresaId")]
+    [InverseProperty("Sucursales")]
+    public virtual Empresa Empresa { get; set; } = null!;
+
+    [InverseProperty("Sucursal")]
+    public virtual ICollection<ProductoLote> ProductoLotes { get; set; } = new List<ProductoLote>();
 
     [InverseProperty("Sucursal")]
     public virtual ICollection<ProductoStock> ProductoStocks { get; set; } = new List<ProductoStock>();

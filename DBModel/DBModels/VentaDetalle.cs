@@ -4,9 +4,13 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
+/// <summary>
+/// Líneas de productos en venta. Snapshot de nombre/precio al momento de vender.
+/// </summary>
 [Table("venta_detalles")]
+[Index("PresentacionId", Name = "idx_venta_detalles_presentacion")]
 [Index("VentaId", Name = "idx_venta_detalles_venta")]
 public partial class VentaDetalle
 {
@@ -55,6 +59,31 @@ public partial class VentaDetalle
     [StringLength(500)]
     public string? ProductoImagenUrl { get; set; }
 
+    [Column("presentacion_id")]
+    public int? PresentacionId { get; set; }
+
+    [Column("presentacion_nombre")]
+    [StringLength(100)]
+    public string? PresentacionNombre { get; set; }
+
+    [Column("cantidad_presentacion")]
+    public int? CantidadPresentacion { get; set; }
+
+    [Column("cantidad_unidades")]
+    public int? CantidadUnidades { get; set; }
+
+    [Column("unidad_sunat")]
+    [StringLength(10)]
+    public string UnidadSunat { get; set; } = null!;
+
+    [Column("tipo_afectacion_igv")]
+    [StringLength(5)]
+    public string TipoAfectacionIgv { get; set; } = null!;
+
+    [ForeignKey("PresentacionId")]
+    [InverseProperty("VentaDetalles")]
+    public virtual ProductoPresentacione? Presentacion { get; set; }
+
     [ForeignKey("ProductoId")]
     [InverseProperty("VentaDetalles")]
     public virtual Producto Producto { get; set; } = null!;
@@ -62,4 +91,7 @@ public partial class VentaDetalle
     [ForeignKey("VentaId")]
     [InverseProperty("VentaDetalles")]
     public virtual Venta Venta { get; set; } = null!;
+
+    [InverseProperty("VentaDetalle")]
+    public virtual ICollection<VentaDetalleLote> VentaDetalleLotes { get; set; } = new List<VentaDetalleLote>();
 }

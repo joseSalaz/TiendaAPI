@@ -1,4 +1,4 @@
-﻿using DBModel.Models;
+﻿using DBModel.DBModels;
 using IRepository;
 using Microsoft.EntityFrameworkCore;
 using UtilInterface;
@@ -23,7 +23,7 @@ namespace Repository
                     cs.Estado == "ABIERTA");
         }
 
-        public async Task<CajaSesione> AbrirCajaAsync(CajaSesione    cajaSesion)
+        public async Task<CajaSesione> AbrirCajaAsync(CajaSesione cajaSesion)
         {
             cajaSesion.FechaApertura = DateTime.UtcNow;
             cajaSesion.Estado = "ABIERTA";
@@ -51,8 +51,15 @@ namespace Repository
         {
             return _context.CajaSesiones;
         }
+        public async Task<CajaSesione?> GetSesionAbiertaPorCajaAsync(int cajaId)
+        {
+            return await _context.CajaSesiones
+                .FirstOrDefaultAsync(x =>
+                    x.CajaId == cajaId &&
+                    x.Estado == "ABIERTA");
+        }
         #region
-        
+
         #endregion
 
 
