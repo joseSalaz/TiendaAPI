@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UtilPaginados")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a408d7c81c0c3842a418d05ad5fb99d90e1f281e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa3e628e1b89cc580d931c80c7afe68080961442")]
 [assembly: System.Reflection.AssemblyProductAttribute("UtilPaginados")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UtilPaginados")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

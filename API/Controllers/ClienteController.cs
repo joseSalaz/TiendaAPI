@@ -82,6 +82,7 @@ namespace API.Controllers
         }
 
         #endregion
+
         #region APisPeru
         [HttpGet("dni/{tipoDocumento}/{nroDocumento}")]
         public async Task<IActionResult> GetClienteByDocumento(string tipoDocumento, string nroDocumento)

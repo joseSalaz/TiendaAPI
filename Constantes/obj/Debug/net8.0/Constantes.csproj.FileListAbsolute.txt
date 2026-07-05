@@ -1,18 +1,17 @@
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Constantes\bin\Debug\net8.0\Constantes.deps.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Constantes\bin\Debug\net8.0\Constantes.runtimeconfig.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Constantes\bin\Debug\net8.0\Constantes.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Constantes\bin\Debug\net8.0\Constantes.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Constantes\obj\Debug\net8.0\Constantes.csproj.AssemblyReference.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Constantes\obj\Debug\net8.0\Constantes.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Constantes\obj\Debug\net8.0\Constantes.AssemblyInfoInputs.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Constantes\obj\Debug\net8.0\Constantes.AssemblyInfo.cs
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Constantes\obj\Debug\net8.0\Constantes.csproj.CoreCompileInputs.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Constantes\obj\Debug\net8.0\Constantes.sourcelink.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Constantes\obj\Debug\net8.0\Constantes.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Constantes\obj\Debug\net8.0\refint\Constantes.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Constantes\obj\Debug\net8.0\Constantes.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Constantes\obj\Debug\net8.0\Constantes.genruntimeconfig.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Constantes\obj\Debug\net8.0\ref\Constantes.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Constantes\bin\Debug\net8.0\Constantes.deps.json
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Constantes\bin\Debug\net8.0\Constantes.runtimeconfig.json
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Constantes\bin\Debug\net8.0\Constantes.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Constantes\bin\Debug\net8.0\Constantes.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.csproj.AssemblyReference.cache
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.AssemblyInfoInputs.cache
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.AssemblyInfo.cs
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.csproj.CoreCompileInputs.cache
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Constantes\obj\Debug\net8.0\refint\Constantes.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Constantes\obj\Debug\net8.0\Constantes.genruntimeconfig.cache
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Constantes\obj\Debug\net8.0\ref\Constantes.dll
 D:\jose\Minimarked\BackendMinimarket\Constantes\bin\Debug\net8.0\Constantes.deps.json
 D:\jose\Minimarked\BackendMinimarket\Constantes\bin\Debug\net8.0\Constantes.runtimeconfig.json
 D:\jose\Minimarked\BackendMinimarket\Constantes\bin\Debug\net8.0\Constantes.dll

@@ -1,43 +1,42 @@
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\Bussines.deps.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\Bussines.runtimeconfig.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\Bussines.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\Bussines.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\Constantes.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\DBModel.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\IBussines.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\IRepository.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\IService.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\Models.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\Repository.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\Service.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\UtilInterface.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\UtilMapper.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\UtilPaginados.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\UtilSecurity.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\Constantes.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\IBussines.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\IRepository.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\IService.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\Models.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\Repository.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\Service.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\UtilMapper.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\UtilSecurity.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\DBModel.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\UtilInterface.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\bin\Debug\net8.0\UtilPaginados.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\obj\Debug\net8.0\Bussines.csproj.AssemblyReference.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\obj\Debug\net8.0\Bussines.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\obj\Debug\net8.0\Bussines.AssemblyInfoInputs.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\obj\Debug\net8.0\Bussines.AssemblyInfo.cs
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\obj\Debug\net8.0\Bussines.csproj.CoreCompileInputs.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\obj\Debug\net8.0\Bussines.sourcelink.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\obj\Debug\net8.0\Bussines.csproj.Up2Date
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\obj\Debug\net8.0\Bussines.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\obj\Debug\net8.0\refint\Bussines.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\obj\Debug\net8.0\Bussines.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\obj\Debug\net8.0\Bussines.genruntimeconfig.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Bussines\obj\Debug\net8.0\ref\Bussines.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\Bussines.deps.json
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\Bussines.runtimeconfig.json
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\Bussines.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\Bussines.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\Constantes.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\DBModel.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\IBussines.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\IRepository.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\IService.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\Models.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\Repository.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\Service.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\UtilInterface.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\UtilMapper.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\UtilPaginados.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\UtilSecurity.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\Constantes.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\IBussines.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\IRepository.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\IService.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\Models.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\Repository.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\Service.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\UtilMapper.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\UtilPaginados.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\UtilSecurity.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\DBModel.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\bin\Debug\net8.0\UtilInterface.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.csproj.AssemblyReference.cache
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.AssemblyInfoInputs.cache
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.AssemblyInfo.cs
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.csproj.CoreCompileInputs.cache
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.csproj.Up2Date
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\obj\Debug\net8.0\refint\Bussines.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.genruntimeconfig.cache
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Bussines\obj\Debug\net8.0\ref\Bussines.dll
 D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\Bussines.deps.json
 D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\Bussines.runtimeconfig.json
 D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\Bussines.dll
@@ -78,3 +77,24 @@ D:\jose\Minimarked\BackendMinimarket\Bussines\obj\Debug\net8.0\refint\Bussines.d
 D:\jose\Minimarked\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.pdb
 D:\jose\Minimarked\BackendMinimarket\Bussines\obj\Debug\net8.0\Bussines.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\Bussines\obj\Debug\net8.0\ref\Bussines.dll
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-Black.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-BlackItalic.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-Bold.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-BoldItalic.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-ExtraBold.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-ExtraBoldItalic.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-ExtraLight.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-ExtraLightItalic.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-Italic.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-Light.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-LightItalic.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-Medium.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-MediumItalic.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-Regular.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-SemiBold.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-SemiBoldItalic.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-Thin.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\Lato-ThinItalic.ttf
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\LatoFont\OFL.txt
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\UtilPDF.dll
+D:\jose\Minimarked\BackendMinimarket\Bussines\bin\Debug\net8.0\UtilPDF.pdb

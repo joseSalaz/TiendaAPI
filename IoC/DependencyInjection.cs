@@ -8,6 +8,7 @@ using Repository;
 using Service.ConsultaDNI_RUC;
 using Service.FacturacionElectronica;
 using UtilInterface;
+using UtilPDF.ComprobantesPdf;
 
 namespace IoC
 {
@@ -87,6 +88,7 @@ namespace IoC
             services.AddScoped<INotaCreditoRepository, NotaCreditoRepository>();
             services.AddScoped<IDocumentoElectronicoBussines, DocumentoElectronicoBussines>();
             services.AddScoped<IApisPeruPayloadBuilder, ApisPeruPayloadBuilder>();
+            services.AddScoped<IComprobantePdfService, ComprobantePdfService>();
             return services;
         }
     }

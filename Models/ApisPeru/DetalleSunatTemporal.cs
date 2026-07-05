@@ -24,6 +24,8 @@ namespace Models.ApisPeru
 
         public decimal PrecioUnitarioConIgv { get; set; }
 
+        public decimal DescuentoConIgv { get; set; }
+
         public decimal TotalConIgv { get; set; }
     }
 }

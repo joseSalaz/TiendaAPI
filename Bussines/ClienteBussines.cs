@@ -164,7 +164,7 @@ namespace Bussines
         #region APIsPeru
         public async Task<Cliente> GetByTipoNroDocumento(string TipoDocumento, string NumeroDocumento)
         {
-            Cliente vPersona = _ClienteRepository.GetByTipoNroDocumento(TipoDocumento, NumeroDocumento);
+            Cliente vPersona = await _ClienteRepository.ObtenerPorDocumentoAsync(TipoDocumento, NumeroDocumento);
 
             if (vPersona == null || vPersona.Id == 0)
             {

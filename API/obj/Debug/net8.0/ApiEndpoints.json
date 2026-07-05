@@ -544,6 +544,38 @@
   },
   {
     "ContainingType": "API.Controllers.VentaController",
+    "Method": "DescargarPdfPropioA4",
+    "RelativePath": "api/Venta/{ventaId}/pdf-propio/a4",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ventaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.VentaController",
+    "Method": "DescargarPdfPropioTicket",
+    "RelativePath": "api/Venta/{ventaId}/pdf-propio/ticket",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ventaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.VentaController",
     "Method": "AnularVenta",
     "RelativePath": "api/Venta/anular-venta",
     "HttpMethod": "POST",

@@ -10,6 +10,7 @@ using Models.ApisPeru;
 using Service.FacturacionElectronica;
 using System.Text;
 using UtilMaper;
+using QuestPDF.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,6 +37,7 @@ builder.Services.AddDbContext<_TiendaDbContext>(options =>
 });
 
 #endregion
+
 #region APIS PERU
 builder.Services.Configure<ApisPeruOptions>(
     builder.Configuration.GetSection("ApisPeru")
@@ -162,6 +164,10 @@ builder.Services.AddSingleton<IMapper>(sp =>
     return new Mapper(mapperConfig);
 });
 
+#endregion
+
+#region QUESTPDF
+QuestPDF.Settings.License = LicenseType.Community;
 #endregion
 
 #region Dependency Injection

@@ -16,6 +16,7 @@ namespace API.Controllers
         {
             _ventaBussines = ventaBussines;
         }
+
         #region VENTA ELECTRONICA
         [HttpPost("registrar")]
         public async Task<IActionResult> RegistrarVenta([FromBody] RegistrarVentaRequest request)
@@ -40,6 +41,30 @@ namespace API.Controllers
         public async Task<IActionResult> DescargarXml(int ventaId)
         {
             var archivo = await _ventaBussines.DescargarXmlAsync(ventaId);
+
+            return File(
+                archivo.Bytes,
+                archivo.ContentType,
+                archivo.NombreArchivo
+            );
+        }
+
+        [HttpGet("{ventaId}/pdf-propio/a4")]
+        public async Task<IActionResult> DescargarPdfPropioA4(int ventaId)
+        {
+            var archivo = await _ventaBussines.DescargarPdfPropioA4Async(ventaId);
+
+            return File(
+                archivo.Bytes,
+                archivo.ContentType,
+                archivo.NombreArchivo
+            );
+        }
+
+        [HttpGet("{ventaId}/pdf-propio/ticket")]
+        public async Task<IActionResult> DescargarPdfPropioTicket(int ventaId)
+        {
+            var archivo = await _ventaBussines.DescargarPdfPropioTicketAsync(ventaId);
 
             return File(
                 archivo.Bytes,

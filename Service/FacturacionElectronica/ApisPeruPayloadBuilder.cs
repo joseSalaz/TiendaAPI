@@ -1,4 +1,5 @@
 ﻿using DBModel.DBModels;
+using IRepository;
 using IService.FacturacionElectronica;
 using Models.ApisPeru;
 using System;
@@ -16,78 +17,7 @@ namespace Service.FacturacionElectronica
            List<DetalleSunatTemporal> detallesSunat,
            Empresa empresa)
         {
-            ValidarEmpresa(empresa);
-
-            if (venta.Descuento.HasValue && venta.Descuento.Value > 0)
-                throw new Exception("Para emisión electrónica usa descuento por detalle, no descuento global.");
-
-            var rucEmpresa = long.Parse(empresa.Ruc);
-
-            var detallesPayload = ConstruirDetallesPayload(detallesSunat);
-
-            var mtoOperGravadas = Math.Round(detallesPayload.Sum(x => x.mtoValorVenta), 2);
-            var mtoIgv = Math.Round(detallesPayload.Sum(x => x.igv), 2);
-            var total = Math.Round(mtoOperGravadas + mtoIgv, 2);
-
-            var fechaPeru = DateTimeOffset
-                .UtcNow
-                .ToOffset(TimeSpan.FromHours(-5))
-                .ToString("yyyy-MM-ddTHH:mm:sszzz");
-
-            var client = ConstruirClienteSunat(venta, empresa);
-
-            return new
-            {
-                ublVersion = "2.1",
-                tipoOperacion = "0101",
-                tipoDoc = venta.TipoDocumento,
-                serie = venta.Serie,
-                correlativo = venta.Correlativo.ToString(),
-                fechaEmision = fechaPeru,
-
-                formaPago = new
-                {
-                    moneda = "PEN",
-                    tipo = "Contado"
-                },
-
-                tipoMoneda = "PEN",
-
-                client = client,
-
-                company = new
-                {
-                    ruc = rucEmpresa,
-                    razonSocial = empresa.RazonSocial,
-                    nombreComercial = empresa.NombreComercial ?? empresa.RazonSocial,
-                    address = new
-                    {
-                        direccion = empresa.DireccionFiscal,
-                        provincia = empresa.Provincia,
-                        departamento = empresa.Departamento,
-                        distrito = empresa.Distrito,
-                        ubigueo = empresa.Ubigeo
-                    }
-                },
-
-                mtoOperGravadas = mtoOperGravadas,
-                mtoIGV = mtoIgv,
-                valorVenta = mtoOperGravadas,
-                totalImpuestos = mtoIgv,
-                subTotal = total,
-                mtoImpVenta = total,
-
-                details = detallesPayload,
-
-                legends = new[]
-                {
-                    new
-                    {
-                        code = "1000",
-                        value = ObtenerLeyendaMonto(total)
-                    }
-                }
-            };
+            return ConstruirFacturaBoletaPayloadInterno(venta,detallesSunat,empresa);
         }
 
         public object ConstruirNotasCreditoPayload(
@@ -102,9 +32,10 @@ namespace Service.FacturacionElectronica
 
             var detallesPayload = ConstruirDetallesPayload(detallesSunat);
 
-            var mtoOperGravadas = Math.Round(detallesPayload.Sum(x => x.mtoValorVenta), 2);
-            var mtoIgv = Math.Round(detallesPayload.Sum(x => x.igv), 2);
-            var total = Math.Round(mtoOperGravadas + mtoIgv, 2);
+            var totales = CalcularTotalesConDescuentoGlobal(
+                detallesPayload,
+                venta.Descuento ?? 0
+            );
 
             var fechaPeru = DateTimeOffset
                 .UtcNow
@@ -113,25 +44,25 @@ namespace Service.FacturacionElectronica
 
             var client = ConstruirClienteSunat(venta, empresa);
 
-            return new
+            var payload = new Dictionary<string, object?>
             {
-                ublVersion = "2.1",
-                tipoDoc = NotasCredito.TipoDocumento,
-                serie = NotasCredito.Serie,
-                correlativo = NotasCredito.Correlativo.ToString(),
-                fechaEmision = fechaPeru,
+                ["ublVersion"] = "2.1",
+                ["tipoDoc"] = NotasCredito.TipoDocumento,
+                ["serie"] = NotasCredito.Serie,
+                ["correlativo"] = NotasCredito.Correlativo.ToString(),
+                ["fechaEmision"] = fechaPeru,
 
-                tipDocAfectado = venta.TipoDocumento,
-                numDocfectado = $"{venta.Serie}-{venta.Correlativo}",
+                ["tipDocAfectado"] = venta.TipoDocumento,
+                ["numDocfectado"] = $"{venta.Serie}-{venta.Correlativo}",
 
-                codMotivo = NotasCredito.CodigoMotivo,
-                desMotivo = NotasCredito.DescripcionMotivo,
+                ["codMotivo"] = NotasCredito.CodigoMotivo,
+                ["desMotivo"] = NotasCredito.DescripcionMotivo,
 
-                tipoMoneda = "PEN",
+                ["tipoMoneda"] = "PEN",
 
-                client = client,
+                ["client"] = client,
 
-                company = new
+                ["company"] = new
                 {
                     ruc = rucEmpresa,
                     razonSocial = empresa.RazonSocial,
@@ -146,77 +77,54 @@ namespace Service.FacturacionElectronica
                     }
                 },
 
-                mtoOperGravadas = mtoOperGravadas,
-                mtoIGV = mtoIgv,
-                valorVenta = mtoOperGravadas,
-                totalImpuestos = mtoIgv,
-                subTotal = total,
-                mtoImpVenta = total,
+                ["mtoOperGravadas"] = totales.MtoOperGravadas,
+                ["mtoIGV"] = totales.MtoIgv,
+                ["valorVenta"] = totales.ValorVenta,
+                ["totalImpuestos"] = totales.TotalImpuestos,
+                ["subTotal"] = totales.Total,
+                ["mtoImpVenta"] = totales.Total,
 
-                details = detallesPayload,
+                ["details"] = detallesPayload,
 
-                legends = new[]
+                ["legends"] = new[]
                 {
-                    new
-                    {
-                        code = "1000",
-                        value = ObtenerLeyendaMonto(total)
-                    }
-                }
-            };
+            new
+            {
+                code = "1000",
+                value = ObtenerLeyendaMonto(totales.Total)
+            }
         }
+            };
+
+            if (totales.DescuentosGlobales.Any())
+            {
+                payload["descuentos"] = totales.DescuentosGlobales;
+            }
+
+            return payload;
+        }
+
         public object ConstruirPayloadApisPeru(Venta venta, List<DetalleSunatTemporal> detallesSunat, Empresa empresa)
         {
-            if (empresa == null)
-                throw new Exception("La empresa emisora es obligatoria.");
+            return ConstruirFacturaBoletaPayloadInterno(venta,detallesSunat,empresa);
+        }
+        private object ConstruirFacturaBoletaPayloadInterno(Venta venta,List<DetalleSunatTemporal> detallesSunat,Empresa empresa)
+        {
+            ValidarEmpresa(empresa);
 
-            if (string.IsNullOrWhiteSpace(empresa.Ruc))
-                throw new Exception("La empresa no tiene RUC configurado.");
-
-            if (string.IsNullOrWhiteSpace(empresa.RazonSocial))
-                throw new Exception("La empresa no tiene razón social configurada.");
-
-            if (string.IsNullOrWhiteSpace(empresa.DireccionFiscal))
-                throw new Exception("La empresa no tiene dirección fiscal configurada.");
-
-            if (venta.Descuento.HasValue && venta.Descuento.Value > 0)
-                throw new Exception("Para emisión electrónica usa descuento por detalle, no descuento global.");
+            if (detallesSunat == null || detallesSunat.Count == 0)
+                throw new Exception("El comprobante no tiene detalles.");
 
             var rucEmpresa = long.Parse(empresa.Ruc);
 
-            var detallesPayload = detallesSunat.Select(detalle =>
-            {
-                var valorUnitario = Math.Round(detalle.PrecioUnitarioConIgv / 1.18m, 6);
-                var valorVenta = Math.Round(detalle.TotalConIgv / 1.18m, 2);
-                var igv = Math.Round(detalle.TotalConIgv - valorVenta, 2);
+            var detallesPayload = ConstruirDetallesPayload(detallesSunat);
 
-                var tipoAfectacionIgv = int.TryParse(detalle.TipoAfectacionIgv, out var tipoAfe)
-                    ? tipoAfe
-                    : 10;
+            var descuentoGlobalConIgv = Math.Round(venta.Descuento ?? 0, 2);
 
-                return new
-                {
-                    codProducto = detalle.CodProducto,
-                    unidad = detalle.UnidadSunat,
-                    descripcion = detalle.Descripcion,
-                    cantidad = detalle.Cantidad,
-
-                    mtoValorUnitario = valorUnitario,
-                    mtoValorVenta = valorVenta,
-
-                    mtoBaseIgv = valorVenta,
-                    porcentajeIgv = 18,
-                    igv = igv,
-                    tipAfeIgv = tipoAfectacionIgv,
-                    totalImpuestos = igv,
-
-                    mtoPrecioUnitario = detalle.PrecioUnitarioConIgv
-                };
-            }).ToList();
-
-            var mtoOperGravadas = Math.Round(detallesPayload.Sum(x => x.mtoValorVenta), 2);
-            var mtoIgv = Math.Round(detallesPayload.Sum(x => x.igv), 2);
-            var total = Math.Round(mtoOperGravadas + mtoIgv, 2);
+            var totales = CalcularTotalesConDescuentoGlobal(
+                detallesPayload,
+                descuentoGlobalConIgv
+            );
 
             var fechaPeru = DateTimeOffset
                 .UtcNow
@@ -225,26 +133,26 @@ namespace Service.FacturacionElectronica
 
             var client = ConstruirClienteSunat(venta, empresa);
 
-            return new
+            var payload = new Dictionary<string, object?>
             {
-                ublVersion = "2.1",
-                tipoOperacion = "0101",
-                tipoDoc = venta.TipoDocumento,
-                serie = venta.Serie,
-                correlativo = venta.Correlativo.ToString(),
-                fechaEmision = fechaPeru,
+                ["ublVersion"] = "2.1",
+                ["tipoOperacion"] = "0101",
+                ["tipoDoc"] = venta.TipoDocumento,
+                ["serie"] = venta.Serie,
+                ["correlativo"] = venta.Correlativo.ToString(),
+                ["fechaEmision"] = fechaPeru,
 
-                formaPago = new
+                ["formaPago"] = new
                 {
                     moneda = "PEN",
                     tipo = "Contado"
                 },
 
-                tipoMoneda = "PEN",
+                ["tipoMoneda"] = "PEN",
 
-                client = client,
+                ["client"] = client,
 
-                company = new
+                ["company"] = new
                 {
                     ruc = rucEmpresa,
                     razonSocial = empresa.RazonSocial,
@@ -259,21 +167,110 @@ namespace Service.FacturacionElectronica
                     }
                 },
 
-                mtoOperGravadas = mtoOperGravadas,
-                mtoIGV = mtoIgv,
-                valorVenta = mtoOperGravadas,
-                totalImpuestos = mtoIgv,
-                subTotal = total,
-                mtoImpVenta = total,
+                ["mtoOperGravadas"] = totales.MtoOperGravadas,
+                ["mtoIGV"] = totales.MtoIgv,
+                ["valorVenta"] = totales.ValorVenta,
+                ["totalImpuestos"] = totales.TotalImpuestos,
+                ["subTotal"] = totales.Total,
+                ["mtoImpVenta"] = totales.Total,
 
-                details = detallesPayload,
+                ["details"] = detallesPayload,
 
-                legends = new[]
+                ["legends"] = new[]
                 {
             new
             {
                 code = "1000",
-                value = ObtenerLeyendaMonto(total)
+                value = ObtenerLeyendaMonto(totales.Total)
+            }
+        }
+            };
+
+            if (totales.DescuentosGlobales.Any())
+            {
+                payload["descuentos"] = totales.DescuentosGlobales;
+            }
+
+            return payload;
+        }
+        private static TotalesComprobanteApisPeru CalcularTotalesConDescuentoGlobal(List<DetallePayloadApisPeru> detallesPayload, decimal descuentoGlobalConIgv)
+        {
+            var mtoOperGravadasBruto = Math.Round(
+                detallesPayload.Sum(x => x.mtoValorVenta),
+                2
+            );
+
+            var mtoIgvBruto = Math.Round(
+                detallesPayload.Sum(x => x.igv),
+                2
+            );
+
+            var totalBruto = Math.Round(
+                mtoOperGravadasBruto + mtoIgvBruto,
+                2
+            );
+
+            descuentoGlobalConIgv = Math.Round(descuentoGlobalConIgv, 2);
+
+            if (descuentoGlobalConIgv < 0)
+                throw new Exception("El descuento global no puede ser negativo.");
+
+            if (descuentoGlobalConIgv > totalBruto)
+                throw new Exception("El descuento global no puede ser mayor al total del comprobante.");
+
+            if (descuentoGlobalConIgv <= 0)
+            {
+                return new TotalesComprobanteApisPeru
+                {
+                    MtoOperGravadas = mtoOperGravadasBruto,
+                    MtoIgv = mtoIgvBruto,
+                    ValorVenta = mtoOperGravadasBruto,
+                    TotalImpuestos = mtoIgvBruto,
+                    Total = totalBruto
+                };
+            }
+
+            /*
+             * El descuento que ingresa el vendedor está en total con IGV.
+             * Para el XML/API se separa en base imponible e IGV.
+             */
+            var descuentoBase = Math.Round(descuentoGlobalConIgv / 1.18m, 2);
+            var descuentoIgv = Math.Round(descuentoGlobalConIgv - descuentoBase, 2);
+
+            var mtoOperGravadas = Math.Round(
+                mtoOperGravadasBruto - descuentoBase,
+                2
+            );
+
+            var mtoIgv = Math.Round(
+                mtoIgvBruto - descuentoIgv,
+                2
+            );
+
+            var total = Math.Round(
+                mtoOperGravadas + mtoIgv,
+                2
+            );
+
+            var factor = mtoOperGravadasBruto <= 0
+                ? 0
+                : Math.Round(descuentoBase / mtoOperGravadasBruto, 6);
+
+            return new TotalesComprobanteApisPeru
+            {
+                MtoOperGravadas = mtoOperGravadas,
+                MtoIgv = mtoIgv,
+                ValorVenta = mtoOperGravadas,
+                TotalImpuestos = mtoIgv,
+                Total = total,
+                DescuentosGlobales = new List<DescuentoPayloadApisPeru>
+        {
+            new DescuentoPayloadApisPeru
+            {
+                codTipo = "02",
+                montoBase = mtoOperGravadasBruto,
+                factor = factor,
+                monto = descuentoBase
             }
         }
             };
@@ -283,29 +280,80 @@ namespace Service.FacturacionElectronica
         {
             return detallesSunat.Select(detalle =>
             {
-                var valorUnitario = Math.Round(detalle.PrecioUnitarioConIgv / 1.18m, 6);
-                var valorVenta = Math.Round(detalle.TotalConIgv / 1.18m, 2);
-                var igv = Math.Round(detalle.TotalConIgv - valorVenta, 2);
+                var cantidad = detalle.Cantidad;
+
+                if (cantidad <= 0)
+                    throw new Exception($"La cantidad del producto {detalle.Descripcion} debe ser mayor a cero.");
+
+                var precioUnitarioConIgv = Math.Round(detalle.PrecioUnitarioConIgv, 2);
+                var descuentoConIgv = Math.Round(detalle.DescuentoConIgv, 2);
+                var totalConIgv = Math.Round(detalle.TotalConIgv, 2);
+
+                if (descuentoConIgv < 0)
+                    throw new Exception($"El descuento del producto {detalle.Descripcion} no puede ser negativo.");
+
+                var totalBrutoConIgv = Math.Round(cantidad * precioUnitarioConIgv, 2);
+
+                if (descuentoConIgv > totalBrutoConIgv)
+                    throw new Exception($"El descuento del producto {detalle.Descripcion} supera el total del producto.");
+
+                var totalEsperado = Math.Round(totalBrutoConIgv - descuentoConIgv, 2);
+
+                if (Math.Abs(totalEsperado - totalConIgv) > 0.05m)
+                    throw new Exception(
+                        $"El total del producto {detalle.Descripcion} no cuadra con precio, cantidad y descuento."
+                    );
+
+                var valorUnitario = Math.Round(precioUnitarioConIgv / 1.18m, 6);
+
+                var totalBrutoSinIgv = Math.Round(totalBrutoConIgv / 1.18m, 2);
+                var descuentoSinIgv = Math.Round(descuentoConIgv / 1.18m, 2);
+
+                var valorVenta = Math.Round(totalConIgv / 1.18m, 2);
+                var igv = Math.Round(totalConIgv - valorVenta, 2);
 
                 var tipoAfectacionIgv = int.TryParse(detalle.TipoAfectacionIgv, out var tipoAfe)
                     ? tipoAfe
                     : 10;
 
-                return new DetallePayloadApisPeru
+                var item = new DetallePayloadApisPeru
                 {
                     codProducto = detalle.CodProducto,
                     unidad = detalle.UnidadSunat,
                     descripcion = detalle.Descripcion,
-                    cantidad = detalle.Cantidad,
+                    cantidad = cantidad,
+
                     mtoValorUnitario = valorUnitario,
                     mtoValorVenta = valorVenta,
+
                     mtoBaseIgv = valorVenta,
                     porcentajeIgv = 18,
                     igv = igv,
                     tipAfeIgv = tipoAfectacionIgv,
                     totalImpuestos = igv,
-                    mtoPrecioUnitario = detalle.PrecioUnitarioConIgv
+
+                    mtoPrecioUnitario = precioUnitarioConIgv
                 };
+
+                if (descuentoSinIgv > 0)
+                {
+                    var factor = totalBrutoSinIgv <= 0
+                        ? 0
+                        : Math.Round(descuentoSinIgv / totalBrutoSinIgv, 6);
+
+                    item.descuentos = new List<DescuentoPayloadApisPeru>
+            {
+                new DescuentoPayloadApisPeru
+                {
+                    codTipo = "00",
+                    montoBase = totalBrutoSinIgv,
+                    factor = factor,
+                    monto = descuentoSinIgv
+                }
+            };
+                }
+
+                return item;
             }).ToList();
         }
 
@@ -544,14 +592,37 @@ namespace Service.FacturacionElectronica
             public string unidad { get; set; } = "NIU";
             public string descripcion { get; set; } = string.Empty;
             public decimal cantidad { get; set; }
+
             public decimal mtoValorUnitario { get; set; }
             public decimal mtoValorVenta { get; set; }
+
             public decimal mtoBaseIgv { get; set; }
             public decimal porcentajeIgv { get; set; }
             public decimal igv { get; set; }
             public int tipAfeIgv { get; set; }
             public decimal totalImpuestos { get; set; }
+
             public decimal mtoPrecioUnitario { get; set; }
+
+            public List<DescuentoPayloadApisPeru>? descuentos { get; set; }
+        }
+        private class TotalesComprobanteApisPeru
+        {
+            public decimal MtoOperGravadas { get; set; }
+            public decimal MtoIgv { get; set; }
+            public decimal ValorVenta { get; set; }
+            public decimal TotalImpuestos { get; set; }
+            public decimal Total { get; set; }
+
+            public List<DescuentoPayloadApisPeru> DescuentosGlobales { get; set; } = new();
+        }
+
+        private class DescuentoPayloadApisPeru
+        {
+            public string codTipo { get; set; } = "02";
+            public decimal montoBase { get; set; }
+            public decimal factor { get; set; }
+            public decimal monto { get; set; }
         }
     }
 }

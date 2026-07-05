@@ -1,31 +1,32 @@
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\bin\Debug\net8.0\Repository.deps.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\bin\Debug\net8.0\Repository.runtimeconfig.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\bin\Debug\net8.0\Repository.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\bin\Debug\net8.0\Repository.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\bin\Debug\net8.0\Constantes.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\bin\Debug\net8.0\DBModel.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\bin\Debug\net8.0\IRepository.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\bin\Debug\net8.0\Models.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\bin\Debug\net8.0\UtilInterface.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\bin\Debug\net8.0\UtilSecurity.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\bin\Debug\net8.0\Constantes.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\bin\Debug\net8.0\DBModel.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\bin\Debug\net8.0\IRepository.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\bin\Debug\net8.0\Models.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\bin\Debug\net8.0\UtilSecurity.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\bin\Debug\net8.0\UtilInterface.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\obj\Debug\net8.0\Repository.sourcelink.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\obj\Debug\net8.0\Repository.csproj.Up2Date
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\obj\Debug\net8.0\Repository.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\obj\Debug\net8.0\refint\Repository.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\obj\Debug\net8.0\Repository.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Repository\obj\Debug\net8.0\ref\Repository.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\Repository.deps.json
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\Repository.runtimeconfig.json
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\Repository.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\Repository.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\Constantes.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\DBModel.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\IRepository.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\Models.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\UtilInterface.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\UtilPaginados.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\UtilSecurity.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\Constantes.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\DBModel.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\IRepository.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\Models.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\UtilSecurity.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\UtilInterface.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\bin\Debug\net8.0\UtilPaginados.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\obj\Debug\net8.0\Repository.csproj.Up2Date
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\obj\Debug\net8.0\Repository.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\obj\Debug\net8.0\refint\Repository.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\obj\Debug\net8.0\Repository.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\Repository\obj\Debug\net8.0\ref\Repository.dll
 D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\Repository.deps.json
 D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\Repository.runtimeconfig.json
 D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\Repository.dll
@@ -35,6 +36,7 @@ D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\DBModel.dll
 D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\IRepository.dll
 D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\Models.dll
 D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\UtilInterface.dll
+D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\UtilPaginados.dll
 D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\UtilSecurity.dll
 D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\Constantes.pdb
 D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\DBModel.pdb
@@ -42,6 +44,7 @@ D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\IRepository.pdb
 D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\Models.pdb
 D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\UtilSecurity.pdb
 D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\UtilInterface.pdb
+D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\UtilPaginados.pdb
 D:\jose\Minimarked\BackendMinimarket\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
 D:\jose\Minimarked\BackendMinimarket\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
 D:\jose\Minimarked\BackendMinimarket\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
@@ -54,5 +57,3 @@ D:\jose\Minimarked\BackendMinimarket\Repository\obj\Debug\net8.0\refint\Reposito
 D:\jose\Minimarked\BackendMinimarket\Repository\obj\Debug\net8.0\Repository.pdb
 D:\jose\Minimarked\BackendMinimarket\Repository\obj\Debug\net8.0\Repository.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\Repository\obj\Debug\net8.0\ref\Repository.dll
-D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\UtilPaginados.dll
-D:\jose\Minimarked\BackendMinimarket\Repository\bin\Debug\net8.0\UtilPaginados.pdb

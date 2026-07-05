@@ -236,24 +236,26 @@ namespace Bussines
             {
                 ProductoId = detalle.ProductoId,
                 PresentacionId = detalle.PresentacionId ?? 0,
+
                 CodProducto = detalle.ProductoCodigoInterno
-                    ?? detalle.CodigoBarras
-                    ?? detalle.ProductoId.ToString(),
+                 ?? detalle.CodigoBarras
+                 ?? detalle.ProductoId.ToString(),
 
-                Descripcion = string.IsNullOrWhiteSpace(detalle.PresentacionNombre)
-                    ? detalle.NombreProducto
-                    : $"{detalle.NombreProducto} - {detalle.PresentacionNombre}",
+                        Descripcion = string.IsNullOrWhiteSpace(detalle.PresentacionNombre)
+                 ? detalle.NombreProducto
+                 : $"{detalle.NombreProducto} - {detalle.PresentacionNombre}",
 
-                UnidadSunat = string.IsNullOrWhiteSpace(detalle.UnidadSunat)
-                    ? "NIU"
-                    : detalle.UnidadSunat,
+                        UnidadSunat = string.IsNullOrWhiteSpace(detalle.UnidadSunat)
+                 ? "NIU"
+                 : detalle.UnidadSunat,
 
-                TipoAfectacionIgv = string.IsNullOrWhiteSpace(detalle.TipoAfectacionIgv)
-                    ? "10"
-                    : detalle.TipoAfectacionIgv,
+                        TipoAfectacionIgv = string.IsNullOrWhiteSpace(detalle.TipoAfectacionIgv)
+                 ? "10"
+                 : detalle.TipoAfectacionIgv,
 
                 Cantidad = detalle.Cantidad,
                 PrecioUnitarioConIgv = detalle.PrecioUnitario,
+                DescuentoConIgv = detalle.Descuento ?? 0,
                 TotalConIgv = detalle.Subtotal
             }).ToList();
         }

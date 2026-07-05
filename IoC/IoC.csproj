@@ -18,6 +18,7 @@
     <ProjectReference Include="..\IService\IService.csproj" />
     <ProjectReference Include="..\Repository\Repository.csproj" />
     <ProjectReference Include="..\UtilInterface\UtilInterface.csproj" />
+    <ProjectReference Include="..\UtilPDF\UtilPDF.csproj" />
   </ItemGroup>
 
 </Project>

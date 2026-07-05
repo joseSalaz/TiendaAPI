@@ -22,5 +22,7 @@ namespace IBussines
         Task<AnularVentaResponse> AnularVentaAsync(AnularVentaRequest request);
         Task<PaginacionResponse<VentaListadoResponse>> ListarAsync(VentaFiltroRequest filtro);
         Task<VentaDetalleCompletoResponse> ObtenerDetalleAsync(int ventaId);
+        Task<ArchivoVentaResponse> DescargarPdfPropioA4Async(int ventaId);
+        Task<ArchivoVentaResponse> DescargarPdfPropioTicketAsync(int ventaId);
     }
 }

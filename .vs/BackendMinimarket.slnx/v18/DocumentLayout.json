@@ -3,20 +3,92 @@
   "WorkspaceRootPath": "D:\\jose\\Minimarked\\BackendMinimarket\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D98D4D03-0DCB-42E8-89F9-12DB53C1C96F}|UtilPDF\\UtilPDF.csproj|d:\\jose\\minimarked\\backendminimarket\\utilpdf\\comprobantespdf\\comprobantepdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D98D4D03-0DCB-42E8-89F9-12DB53C1C96F}|UtilPDF\\UtilPDF.csproj|solutionrelative:utilpdf\\comprobantespdf\\comprobantepdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|d:\\jose\\minimarked\\backendminimarket\\bussines\\ventas\\facturacion\\ventabussines.pdfpropio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|solutionrelative:bussines\\ventas\\facturacion\\ventabussines.pdfpropio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98D4D03-0DCB-42E8-89F9-12DB53C1C96F}|UtilPDF\\UtilPDF.csproj|d:\\jose\\minimarked\\backendminimarket\\utilpdf\\comprobantespdf\\icomprobantepdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D98D4D03-0DCB-42E8-89F9-12DB53C1C96F}|UtilPDF\\UtilPDF.csproj|solutionrelative:utilpdf\\comprobantespdf\\icomprobantepdfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|d:\\jose\\minimarked\\backendminimarket\\bussines\\ventabussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|solutionrelative:bussines\\ventabussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|d:\\jose\\minimarked\\backendminimarket\\bussines\\ventas\\facturacion\\ventabussines.emisionelectronica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|solutionrelative:bussines\\ventas\\facturacion\\ventabussines.emisionelectronica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98D4D03-0DCB-42E8-89F9-12DB53C1C96F}|UtilPDF\\UtilPDF.csproj|d:\\jose\\minimarked\\backendminimarket\\utilpdf\\comprobantespdf\\cache\\logocacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D98D4D03-0DCB-42E8-89F9-12DB53C1C96F}|UtilPDF\\UtilPDF.csproj|solutionrelative:utilpdf\\comprobantespdf\\cache\\logocacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98D4D03-0DCB-42E8-89F9-12DB53C1C96F}|UtilPDF\\UtilPDF.csproj|d:\\jose\\minimarked\\backendminimarket\\utilpdf\\comprobantespdf\\requestresponse\\comprobantepdfdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D98D4D03-0DCB-42E8-89F9-12DB53C1C96F}|UtilPDF\\UtilPDF.csproj|solutionrelative:utilpdf\\comprobantespdf\\requestresponse\\comprobantepdfdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6292841-3436-1F7D-1CE0-80C600CBF4F5}|IBussines\\IBussines.csproj|d:\\jose\\minimarked\\backendminimarket\\ibussines\\iventabussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6292841-3436-1F7D-1CE0-80C600CBF4F5}|IBussines\\IBussines.csproj|solutionrelative:ibussines\\iventabussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98D4D03-0DCB-42E8-89F9-12DB53C1C96F}|UtilPDF\\UtilPDF.csproj|d:\\jose\\minimarked\\backendminimarket\\utilpdf\\comprobantespdf\\cache\\ilogocacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D98D4D03-0DCB-42E8-89F9-12DB53C1C96F}|UtilPDF\\UtilPDF.csproj|solutionrelative:utilpdf\\comprobantespdf\\cache\\ilogocacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|d:\\jose\\minimarked\\backendminimarket\\bussines\\ventas\\facturacion\\ventabussines.archivoselectronicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|solutionrelative:bussines\\ventas\\facturacion\\ventabussines.archivoselectronicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E63E74C7-7E02-4B64-B18E-3549BBD99D9C}|IoC\\IoC.csproj|d:\\jose\\minimarked\\backendminimarket\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E63E74C7-7E02-4B64-B18E-3549BBD99D9C}|IoC\\IoC.csproj|solutionrelative:ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|d:\\jose\\minimarked\\backendminimarket\\api\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|d:\\jose\\minimarked\\backendminimarket\\bussines\\ventas\\validaciones\\ventabussines.validaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|solutionrelative:bussines\\ventas\\validaciones\\ventabussines.validaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|d:\\jose\\minimarked\\backendminimarket\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98D4D03-0DCB-42E8-89F9-12DB53C1C96F}|UtilPDF\\UtilPDF.csproj|d:\\jose\\minimarked\\backendminimarket\\utilpdf\\utilpdf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D98D4D03-0DCB-42E8-89F9-12DB53C1C96F}|UtilPDF\\UtilPDF.csproj|solutionrelative:utilpdf\\utilpdf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B79BC5-153E-2FD9-CAE3-8149E0D9044F}|Service\\Service.csproj|d:\\jose\\minimarked\\backendminimarket\\service\\facturacionelectronica\\apisperupayloadbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B79BC5-153E-2FD9-CAE3-8149E0D9044F}|Service\\Service.csproj|solutionrelative:service\\facturacionelectronica\\apisperupayloadbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|d:\\jose\\minimarked\\backendminimarket\\bussines\\documentoelectronicobussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|solutionrelative:bussines\\documentoelectronicobussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|d:\\jose\\minimarked\\backendminimarket\\models\\apisperu\\detallesunattemporal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\apisperu\\detallesunattemporal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE8F3387-4CAB-64ED-80E3-18319C5DCD81}|Repository\\Repository.csproj|d:\\jose\\minimarked\\backendminimarket\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE8F3387-4CAB-64ED-80E3-18319C5DCD81}|Repository\\Repository.csproj|solutionrelative:repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24FCE484-BD07-EACC-FBE5-A82A7A96DAE4}|IRepository\\IRepository.csproj|d:\\jose\\minimarked\\backendminimarket\\irepository\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24FCE484-BD07-EACC-FBE5-A82A7A96DAE4}|IRepository\\IRepository.csproj|solutionrelative:irepository\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|d:\\jose\\minimarked\\backendminimarket\\bussines\\clientebussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{587DD631-46FE-851A-3AA5-3E47BBBA975A}|Bussines\\Bussines.csproj|solutionrelative:bussines\\clientebussines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|d:\\jose\\minimarked\\backendminimarket\\models\\requestresponse\\registrarventarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{262C6A48-AE34-D77E-44A9-AF0CD30983F0}|Models\\Models.csproj|solutionrelative:models\\requestresponse\\registrarventarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02B79BC5-153E-2FD9-CAE3-8149E0D9044F}|Service\\Service.csproj|d:\\jose\\minimarked\\backendminimarket\\service\\facturacionelectronica\\apisperufacturacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B79BC5-153E-2FD9-CAE3-8149E0D9044F}|Service\\Service.csproj|solutionrelative:service\\facturacionelectronica\\apisperufacturacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|d:\\jose\\minimarked\\backendminimarket\\api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +106,288 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClienteRepository.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\ClienteRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\ClienteRepository.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\ClienteRepository.cs",
-              "RelativeToolTip": "Repository\\ClienteRepository.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAmwEcAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "ILogoCacheService.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPDF\\ComprobantesPdf\\Cache\\ILogoCacheService.cs",
+              "RelativeDocumentMoniker": "UtilPDF\\ComprobantesPdf\\Cache\\ILogoCacheService.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPDF\\ComprobantesPdf\\Cache\\ILogoCacheService.cs",
+              "RelativeToolTip": "UtilPDF\\ComprobantesPdf\\Cache\\ILogoCacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T02:46:27.826Z",
+              "WhenOpened": "2026-07-05T00:46:59.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IClienteRepository.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\IRepository\\IClienteRepository.cs",
-              "RelativeDocumentMoniker": "IRepository\\IClienteRepository.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\IRepository\\IClienteRepository.cs",
-              "RelativeToolTip": "IRepository\\IClienteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "IVentaBussines.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\IBussines\\IVentaBussines.cs",
+              "RelativeDocumentMoniker": "IBussines\\IVentaBussines.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\IBussines\\IVentaBussines.cs",
+              "RelativeToolTip": "IBussines\\IVentaBussines.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAWwBkAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T02:46:21.565Z",
+              "WhenOpened": "2026-07-04T23:29:57.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RegistrarVentaRequest.cs",
-              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\RequestResponse\\RegistrarVentaRequest.cs",
-              "RelativeDocumentMoniker": "Models\\RequestResponse\\RegistrarVentaRequest.cs",
-              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\RequestResponse\\RegistrarVentaRequest.cs",
-              "RelativeToolTip": "Models\\RequestResponse\\RegistrarVentaRequest.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAxwCwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T02:45:22.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "VentaBussines.cs",
               "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\VentaBussines.cs",
               "RelativeDocumentMoniker": "Bussines\\VentaBussines.cs",
               "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\VentaBussines.cs",
               "RelativeToolTip": "Bussines\\VentaBussines.cs",
-              "ViewState": "AgIAACIBAAAAAAAAAAD4vzwBAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAtwCkAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T02:35:05.474Z",
+              "WhenOpened": "2026-07-04T20:36:01.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VentaBussines.EmisionElectronica.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\Ventas\\Facturacion\\VentaBussines.EmisionElectronica.cs",
+              "RelativeDocumentMoniker": "Bussines\\Ventas\\Facturacion\\VentaBussines.EmisionElectronica.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\Ventas\\Facturacion\\VentaBussines.EmisionElectronica.cs",
+              "RelativeToolTip": "Bussines\\Ventas\\Facturacion\\VentaBussines.EmisionElectronica.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAANUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T20:58:32.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComprobantePdfService.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPDF\\ComprobantesPdf\\ComprobantePdfService.cs",
+              "RelativeDocumentMoniker": "UtilPDF\\ComprobantesPdf\\ComprobantePdfService.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPDF\\ComprobantesPdf\\ComprobantePdfService.cs",
+              "RelativeToolTip": "UtilPDF\\ComprobantesPdf\\ComprobantePdfService.cs",
+              "ViewState": "AgIAAEIBAAAAAAAAAAD4v1YBAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T23:50:20.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VentaBussines.PdfPropio.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\Ventas\\Facturacion\\VentaBussines.PdfPropio.cs",
+              "RelativeDocumentMoniker": "Bussines\\Ventas\\Facturacion\\VentaBussines.PdfPropio.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\Ventas\\Facturacion\\VentaBussines.PdfPropio.cs",
+              "RelativeToolTip": "Bussines\\Ventas\\Facturacion\\VentaBussines.PdfPropio.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T00:07:14.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IComprobantePdfService.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPDF\\ComprobantesPdf\\IComprobantePdfService.cs",
+              "RelativeDocumentMoniker": "UtilPDF\\ComprobantesPdf\\IComprobantePdfService.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPDF\\ComprobantesPdf\\IComprobantePdfService.cs",
+              "RelativeToolTip": "UtilPDF\\ComprobantesPdf\\IComprobantePdfService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T23:48:38.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LogoCacheService.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPDF\\ComprobantesPdf\\Cache\\LogoCacheService.cs",
+              "RelativeDocumentMoniker": "UtilPDF\\ComprobantesPdf\\Cache\\LogoCacheService.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPDF\\ComprobantesPdf\\Cache\\LogoCacheService.cs",
+              "RelativeToolTip": "UtilPDF\\ComprobantesPdf\\Cache\\LogoCacheService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T00:47:15.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComprobantePdfData.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPDF\\ComprobantesPdf\\RequestResponse\\ComprobantePdfData.cs",
+              "RelativeDocumentMoniker": "UtilPDF\\ComprobantesPdf\\RequestResponse\\ComprobantePdfData.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPDF\\ComprobantesPdf\\RequestResponse\\ComprobantePdfData.cs",
+              "RelativeToolTip": "UtilPDF\\ComprobantesPdf\\RequestResponse\\ComprobantePdfData.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBIAAACvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T23:49:25.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAKoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T23:57:34.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VentaBussines.Validaciones.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\Ventas\\Validaciones\\VentaBussines.Validaciones.cs",
+              "RelativeDocumentMoniker": "Bussines\\Ventas\\Validaciones\\VentaBussines.Validaciones.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\Ventas\\Validaciones\\VentaBussines.Validaciones.cs",
+              "RelativeToolTip": "Bussines\\Ventas\\Validaciones\\VentaBussines.Validaciones.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAmwKMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T21:08:16.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\IoC\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "IoC\\DependencyInjection.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\IoC\\DependencyInjection.cs",
+              "RelativeToolTip": "IoC\\DependencyInjection.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwFsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T00:01:41.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VentaBussines.ArchivosElectronicos.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\Ventas\\Facturacion\\VentaBussines.ArchivosElectronicos.cs",
+              "RelativeDocumentMoniker": "Bussines\\Ventas\\Facturacion\\VentaBussines.ArchivosElectronicos.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\Ventas\\Facturacion\\VentaBussines.ArchivosElectronicos.cs",
+              "RelativeToolTip": "Bussines\\Ventas\\Facturacion\\VentaBussines.ArchivosElectronicos.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAALYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T00:04:32.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VentaController.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\Controllers\\VentaController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\VentaController.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\Controllers\\VentaController.cs",
+              "RelativeToolTip": "API\\Controllers\\VentaController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAADwv0kAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T00:11:08.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UtilPDF",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPDF\\UtilPDF.csproj",
+              "RelativeDocumentMoniker": "UtilPDF\\UtilPDF.csproj",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPDF\\UtilPDF.csproj",
+              "RelativeToolTip": "UtilPDF\\UtilPDF.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-04T23:47:37.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DocumentoElectronicoBussines.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\DocumentoElectronicoBussines.cs",
+              "RelativeDocumentMoniker": "Bussines\\DocumentoElectronicoBussines.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\DocumentoElectronicoBussines.cs",
+              "RelativeToolTip": "Bussines\\DocumentoElectronicoBussines.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAjwPYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T23:31:00.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DetalleSunatTemporal.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\ApisPeru\\DetalleSunatTemporal.cs",
+              "RelativeDocumentMoniker": "Models\\ApisPeru\\DetalleSunatTemporal.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Models\\ApisPeru\\DetalleSunatTemporal.cs",
+              "RelativeToolTip": "Models\\ApisPeru\\DetalleSunatTemporal.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T23:29:09.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApisPeruPayloadBuilder.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Service\\FacturacionElectronica\\ApisPeruPayloadBuilder.cs",
+              "RelativeDocumentMoniker": "Service\\FacturacionElectronica\\ApisPeruPayloadBuilder.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Service\\FacturacionElectronica\\ApisPeruPayloadBuilder.cs",
+              "RelativeToolTip": "Service\\FacturacionElectronica\\ApisPeruPayloadBuilder.cs",
+              "ViewState": "AgIAAFgBAAAAAAAAAAAmwGYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T20:59:33.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApisPeruFacturacionService.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Service\\FacturacionElectronica\\ApisPeruFacturacionService.cs",
+              "RelativeDocumentMoniker": "Service\\FacturacionElectronica\\ApisPeruFacturacionService.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Service\\FacturacionElectronica\\ApisPeruFacturacionService.cs",
+              "RelativeToolTip": "Service\\FacturacionElectronica\\ApisPeruFacturacionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T20:47:04.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ClienteRepository.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\ClienteRepository.cs",
+              "RelativeToolTip": "Repository\\ClienteRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwD0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T20:35:14.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ClienteBussines.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\ClienteBussines.cs",
+              "RelativeDocumentMoniker": "Bussines\\ClienteBussines.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\ClienteBussines.cs",
+              "RelativeToolTip": "Bussines\\ClienteBussines.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAtwKUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T20:34:37.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ClienteController.cs",
+              "ToolTip": "D:\\jose\\Minimarked\\BackendMinimarket\\API\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "API\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAD4v1sAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T20:31:59.921Z",
               "EditorCaption": ""
             }
           ]
