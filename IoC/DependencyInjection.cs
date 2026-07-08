@@ -1,14 +1,17 @@
 ﻿using Bussines;
 using IBussines;
 using IRepository;
+using IService;
 using Microsoft.Extensions.DependencyInjection;
 using Repository;
+using Service;
 using UtilInterface;
 
 namespace IoC
 {
     public static class DependencyInjection
     {
+
         public static IServiceCollection
             AddDependencyInjection(
                 this IServiceCollection services)
@@ -32,7 +35,9 @@ namespace IoC
             services.AddScoped
                 <ICajaSesionBussines, 
                 CajaSesionBussines>();
-
+            services.AddScoped
+                <IBarcodeService, 
+                BarcodeService>();
             return services;
         }
     }

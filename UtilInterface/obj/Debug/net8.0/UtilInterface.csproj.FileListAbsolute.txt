@@ -1,21 +1,3 @@
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\bin\Debug\net8.0\UtilInterface.deps.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\bin\Debug\net8.0\UtilInterface.runtimeconfig.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\bin\Debug\net8.0\UtilInterface.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\bin\Debug\net8.0\UtilInterface.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\bin\Debug\net8.0\DBModel.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\bin\Debug\net8.0\DBModel.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.csproj.AssemblyReference.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.AssemblyInfoInputs.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.AssemblyInfo.cs
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.csproj.CoreCompileInputs.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.sourcelink.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInte.BB3F5A05.Up2Date
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\refint\UtilInterface.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.genruntimeconfig.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\ref\UtilInterface.dll
 D:\jose\Minimarked\BackendMinimarket\UtilInterface\bin\Debug\net8.0\UtilInterface.deps.json
 D:\jose\Minimarked\BackendMinimarket\UtilInterface\bin\Debug\net8.0\UtilInterface.runtimeconfig.json
 D:\jose\Minimarked\BackendMinimarket\UtilInterface\bin\Debug\net8.0\UtilInterface.dll
@@ -34,3 +16,21 @@ D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\refint\UtilI
 D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\UtilInterface.pdb
 D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\UtilInterface.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\UtilInterface\obj\Debug\net8.0\ref\UtilInterface.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\bin\Debug\net8.0\UtilInterface.deps.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\bin\Debug\net8.0\UtilInterface.runtimeconfig.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\bin\Debug\net8.0\UtilInterface.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\bin\Debug\net8.0\UtilInterface.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\bin\Debug\net8.0\DBModel.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\bin\Debug\net8.0\DBModel.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.csproj.AssemblyReference.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.AssemblyInfoInputs.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.AssemblyInfo.cs
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.csproj.CoreCompileInputs.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.sourcelink.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInte.BB3F5A05.Up2Date
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\refint\UtilInterface.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\UtilInterface.genruntimeconfig.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilInterface\obj\Debug\net8.0\ref\UtilInterface.dll

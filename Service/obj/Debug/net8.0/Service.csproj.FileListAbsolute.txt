@@ -1,33 +1,3 @@
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\Service.deps.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\Service.runtimeconfig.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\Service.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\Service.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\Constantes.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\DBModel.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\IRepository.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\IService.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\Models.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\UtilInterface.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\UtilSecurity.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\IRepository.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\IService.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\Models.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\UtilSecurity.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\Constantes.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\DBModel.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\UtilInterface.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.csproj.AssemblyReference.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.AssemblyInfoInputs.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.AssemblyInfo.cs
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.csproj.CoreCompileInputs.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.sourcelink.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.csproj.Up2Date
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\refint\Service.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.genruntimeconfig.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\ref\Service.dll
 D:\jose\Minimarked\BackendMinimarket\Service\bin\Debug\net8.0\Service.deps.json
 D:\jose\Minimarked\BackendMinimarket\Service\bin\Debug\net8.0\Service.runtimeconfig.json
 D:\jose\Minimarked\BackendMinimarket\Service\bin\Debug\net8.0\Service.dll
@@ -58,3 +28,33 @@ D:\jose\Minimarked\BackendMinimarket\Service\obj\Debug\net8.0\refint\Service.dll
 D:\jose\Minimarked\BackendMinimarket\Service\obj\Debug\net8.0\Service.pdb
 D:\jose\Minimarked\BackendMinimarket\Service\obj\Debug\net8.0\Service.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\Service\obj\Debug\net8.0\ref\Service.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\Service.deps.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\Service.runtimeconfig.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\Service.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\Service.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\Constantes.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\DBModel.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\IRepository.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\IService.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\Models.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\UtilInterface.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\UtilSecurity.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\IRepository.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\IService.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\Models.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\UtilSecurity.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\Constantes.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\DBModel.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\bin\Debug\net8.0\UtilInterface.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.csproj.AssemblyReference.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.AssemblyInfoInputs.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.AssemblyInfo.cs
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.sourcelink.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.csproj.Up2Date
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\refint\Service.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\Service.genruntimeconfig.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\Service\obj\Debug\net8.0\ref\Service.dll

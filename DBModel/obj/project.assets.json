@@ -2548,23 +2548,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jose Salazar\\.nuget\\packages\\": {},
+    "C:\\Users\\cesae\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModel.csproj",
+      "projectUniqueName": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\DBModel\\DBModel.csproj",
       "projectName": "DBModel",
-      "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\DBModel.csproj",
-      "packagesPath": "C:\\Users\\Jose Salazar\\.nuget\\packages\\",
-      "outputPath": "D:\\jose\\Minimarked\\BackendMinimarket\\DBModel\\obj\\",
+      "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\DBModel\\DBModel.csproj",
+      "packagesPath": "C:\\Users\\cesae\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\DBModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jose Salazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cesae\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

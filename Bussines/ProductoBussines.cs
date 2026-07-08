@@ -2,8 +2,11 @@
 using DBModel.Models;
 using IBussines;
 using IRepository;
+using IService;
 using Microsoft.EntityFrameworkCore;
+using Models.Comon;
 using Models.RequestResponse;
+using Service;
 using UtilInterface;
 using UtilPaginados.RequestResponse;
 
@@ -14,15 +17,17 @@ namespace Bussines
         private readonly IProductoRepository _productoRepository;
         private readonly IMapper _mapper;
         private readonly IUnitOfWork _unitOfWork;
-
+        private readonly IBarcodeService _barcodeService;
         public ProductoBussines(
             IProductoRepository productoRepository,
             IMapper mapper,
-            IUnitOfWork unitOfWork)
+            IUnitOfWork unitOfWork,
+            IBarcodeService barcodeService)
         {
             _productoRepository = productoRepository;
             _mapper = mapper;
             _unitOfWork = unitOfWork;
+            _barcodeService = barcodeService;
         }
 
         public async Task<List<ProductoResponse>> GetAllAsync()
@@ -148,6 +153,26 @@ namespace Bussines
         public void Dispose()
         {
             GC.SuppressFinalize(this);
+        }
+        public async Task<ProductoScannedDto> ScanByBarcodeAsync(string barcode)
+        {
+            
+            var productoLocal = await _productoRepository.GetByCodigoBarras(barcode);
+
+            if (productoLocal != null)
+            {
+                return new ProductoScannedDto
+                {
+                    CodigoBarras = productoLocal.CodigoBarras,
+                    Nombre = productoLocal.Nombre,
+                    Descripcion = productoLocal.Descripcion,
+                    ImagenUrl = productoLocal.ImagenUrl,
+                    Encontrado = true,
+                    SourceApi = "LocalDB" 
+                };
+            }
+
+            return await _barcodeService.ScanProductoAsync(barcode);
         }
     }
 }

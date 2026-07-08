@@ -67,6 +67,7 @@ builder.Services
 #endregion
 
 #region Controllers
+builder.Services.AddHttpClient();
 
 builder.Services.AddControllers();
 

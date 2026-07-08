@@ -1,31 +1,3 @@
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\IBussines.deps.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\IBussines.runtimeconfig.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\IBussines.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\IBussines.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\Constantes.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\DBModel.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\IService.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\Models.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\UtilInterface.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\UtilPaginados.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\DBModel.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\IService.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\Models.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\UtilInterface.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\Constantes.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\UtilPaginados.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.csproj.AssemblyReference.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.AssemblyInfoInputs.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.AssemblyInfo.cs
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.csproj.CoreCompileInputs.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.sourcelink.json
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.csproj.Up2Date
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\refint\IBussines.dll
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.pdb
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.genruntimeconfig.cache
-C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\ref\IBussines.dll
 D:\jose\Minimarked\BackendMinimarket\IBussines\bin\Debug\net8.0\IBussines.deps.json
 D:\jose\Minimarked\BackendMinimarket\IBussines\bin\Debug\net8.0\IBussines.runtimeconfig.json
 D:\jose\Minimarked\BackendMinimarket\IBussines\bin\Debug\net8.0\IBussines.dll
@@ -54,3 +26,31 @@ D:\jose\Minimarked\BackendMinimarket\IBussines\obj\Debug\net8.0\refint\IBussines
 D:\jose\Minimarked\BackendMinimarket\IBussines\obj\Debug\net8.0\IBussines.pdb
 D:\jose\Minimarked\BackendMinimarket\IBussines\obj\Debug\net8.0\IBussines.genruntimeconfig.cache
 D:\jose\Minimarked\BackendMinimarket\IBussines\obj\Debug\net8.0\ref\IBussines.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\IBussines.deps.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\IBussines.runtimeconfig.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\IBussines.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\IBussines.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\Constantes.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\DBModel.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\IService.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\Models.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\UtilInterface.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\UtilPaginados.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\DBModel.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\IService.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\Models.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\UtilInterface.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\UtilPaginados.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\bin\Debug\net8.0\Constantes.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.csproj.AssemblyReference.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.AssemblyInfoInputs.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.AssemblyInfo.cs
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.csproj.CoreCompileInputs.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.sourcelink.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.csproj.Up2Date
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\refint\IBussines.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\IBussines.genruntimeconfig.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\IBussines\obj\Debug\net8.0\ref\IBussines.dll

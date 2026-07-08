@@ -11,3 +11,16 @@ D:\jose\Minimarked\BackendMinimarket\UtilPaginados\obj\Debug\net8.0\UtilPaginado
 D:\jose\Minimarked\BackendMinimarket\UtilPaginados\obj\Debug\net8.0\refint\UtilPaginados.dll
 D:\jose\Minimarked\BackendMinimarket\UtilPaginados\obj\Debug\net8.0\UtilPaginados.pdb
 D:\jose\Minimarked\BackendMinimarket\UtilPaginados\obj\Debug\net8.0\ref\UtilPaginados.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilPaginados\bin\Debug\net8.0\UtilPaginados.deps.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilPaginados\bin\Debug\net8.0\UtilPaginados.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilPaginados\bin\Debug\net8.0\UtilPaginados.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilPaginados\obj\Debug\net8.0\UtilPaginados.csproj.AssemblyReference.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilPaginados\obj\Debug\net8.0\UtilPaginados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilPaginados\obj\Debug\net8.0\UtilPaginados.AssemblyInfoInputs.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilPaginados\obj\Debug\net8.0\UtilPaginados.AssemblyInfo.cs
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilPaginados\obj\Debug\net8.0\UtilPaginados.csproj.CoreCompileInputs.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilPaginados\obj\Debug\net8.0\UtilPaginados.sourcelink.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilPaginados\obj\Debug\net8.0\UtilPaginados.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilPaginados\obj\Debug\net8.0\refint\UtilPaginados.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilPaginados\obj\Debug\net8.0\UtilPaginados.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilPaginados\obj\Debug\net8.0\ref\UtilPaginados.dll

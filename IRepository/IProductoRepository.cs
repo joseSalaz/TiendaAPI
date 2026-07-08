@@ -9,5 +9,6 @@ namespace IRepository
             GetAutoCompleteAsync(
                 string query);
         IQueryable<Producto> GetQueryable();
+        Task<Producto?> GetByCodigoBarras(string codigoBarras);
     }
 }
