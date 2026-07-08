@@ -6,6 +6,7 @@ using IService;
 using Microsoft.EntityFrameworkCore;
 using Models.Comon;
 using Models.RequestResponse;
+using Repository;
 using Service;
 using UtilInterface;
 using UtilPaginados.RequestResponse;
@@ -17,35 +18,36 @@ namespace Bussines
         private readonly IProductoRepository _productoRepository;
         private readonly IMapper _mapper;
         private readonly IUnitOfWork _unitOfWork;
-<<<<<<< HEAD
+
         private readonly IBarcodeService _barcodeService;
-=======
+
         private readonly IProductoPresentacionRepository _productoPresentacionRepository;
         private readonly ISucursalRepository _sucursalRepository;
         private readonly IProductoStockRepository _productoStockRepository;
 
->>>>>>> 787cd51adb08540b2ce86f2737763df37a392c8d
+
         public ProductoBussines(
             IProductoRepository productoRepository,
             IMapper mapper,
             IUnitOfWork unitOfWork,
-<<<<<<< HEAD
-            IBarcodeService barcodeService)
-=======
-            IProductoPresentacionRepository productoPresentacionRepository, ISucursalRepository sucursalRepository
-            , IProductoStockRepository productoStockRepository)
->>>>>>> 787cd51adb08540b2ce86f2737763df37a392c8d
+
+            IBarcodeService barcodeService,
+            IProductoPresentacionRepository productoPresentacionRepository, 
+            ISucursalRepository sucursalRepository, 
+            IProductoStockRepository productoStockRepository
+            )
+
         {
             _productoRepository = productoRepository;
             _mapper = mapper;
             _unitOfWork = unitOfWork;
-<<<<<<< HEAD
+
             _barcodeService = barcodeService;
-=======
+
             _productoPresentacionRepository = productoPresentacionRepository;
             _sucursalRepository = sucursalRepository;
             _productoStockRepository = productoStockRepository;
->>>>>>> 787cd51adb08540b2ce86f2737763df37a392c8d
+
         }
 
         public async Task<List<ProductoResponse>> GetAllAsync()
@@ -172,7 +174,7 @@ namespace Bussines
         {
             GC.SuppressFinalize(this);
         }
-<<<<<<< HEAD
+
         public async Task<ProductoScannedDto> ScanByBarcodeAsync(string barcode)
         {
             
@@ -193,7 +195,7 @@ namespace Bussines
 
             return await _barcodeService.ScanProductoAsync(barcode);
         }
-=======
+
 
         #region MetodosPropios
         public async Task<ProductoResponse> CreateProductosStock(ProductoRequest request)
@@ -478,6 +480,6 @@ namespace Bussines
             return await _productoRepository.BuscarParaVentaAsync(filtro);
         }
         #endregion 
->>>>>>> 787cd51adb08540b2ce86f2737763df37a392c8d
+
     }
 }

@@ -27,13 +27,13 @@ namespace Repository
                     x.Nombre.Contains(query))
                 .ToListAsync();
         }
-<<<<<<< HEAD
+
         public async Task<Producto?> GetByCodigoBarras(string codigoBarras)
         {
             return await _context.Productos
                 .FirstOrDefaultAsync(p => p.CodigoBarras == codigoBarras);
         }
-=======
+
         public async Task<Producto?> GetByIdConPresentacionesAsync(int id)
         {
             return await _context.Productos
@@ -127,6 +127,6 @@ namespace Repository
             };
         }
 
->>>>>>> 787cd51adb08540b2ce86f2737763df37a392c8d
+
     }
 }

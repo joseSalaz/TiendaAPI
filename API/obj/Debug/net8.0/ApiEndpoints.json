@@ -511,11 +511,22 @@
     "ReturnTypes": []
   },
   {
-<<<<<<< HEAD
     "ContainingType": "API.Controllers.ProductoController",
     "Method": "ScanBarcode",
     "RelativePath": "api/Producto/scan/{barcode}",
-=======
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "barcode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API.Controllers.ProductoLoteController",
     "Method": "RegistrarEntrada",
     "RelativePath": "api/ProductoLote/Registrar/Entrada",
@@ -535,16 +546,11 @@
     "ContainingType": "API.Controllers.VentaController",
     "Method": "ObtenerDetalle",
     "RelativePath": "api/Venta/{ventaId}/detalle",
->>>>>>> 787cd51adb08540b2ce86f2737763df37a392c8d
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-<<<<<<< HEAD
-        "Name": "barcode",
-        "Type": "System.String",
-=======
         "Name": "ventaId",
         "Type": "System.Int32",
         "IsRequired": true
@@ -773,7 +779,6 @@
       {
         "Name": "ventaId",
         "Type": "System.Int32",
->>>>>>> 787cd51adb08540b2ce86f2737763df37a392c8d
         "IsRequired": true
       }
     ],

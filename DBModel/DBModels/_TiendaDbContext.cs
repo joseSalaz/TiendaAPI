@@ -61,13 +61,13 @@ public partial class _TiendaDbContext : DbContext
 
     public virtual DbSet<VentaDetalleLote> VentaDetalleLotes { get; set; }
 
-<<<<<<< HEAD
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=firstdatabase;Username=postgres;Password=ea5aio5ue5ao6");
-=======
+
     public virtual DbSet<VentaPago> VentaPagos { get; set; }
->>>>>>> 787cd51adb08540b2ce86f2737763df37a392c8d
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

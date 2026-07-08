@@ -47,7 +47,7 @@ namespace Service
                 }
             }
 
-            // Ahora el flujo SÍ llegará aquí de forma obligatoria si el producto fue encontrado
+          
             if (resultadoDto != null && resultadoDto.Encontrado)
             {
                 resultadoDto.Nombre = await TraducirAlEspanolAsync(resultadoDto.Nombre ?? "");

@@ -1,19 +1,19 @@
 ﻿using Bussines;
 using IBussines;
 using IRepository;
-<<<<<<< HEAD
+
 using IService;
 using Microsoft.Extensions.DependencyInjection;
 using Repository;
 using Service;
-=======
+
 using IService.ConsultaDNI_RUC;
 using IService.FacturacionElectronica;
 using Microsoft.Extensions.DependencyInjection;
 using Repository;
 using Service.ConsultaDNI_RUC;
 using Service.FacturacionElectronica;
->>>>>>> 787cd51adb08540b2ce86f2737763df37a392c8d
+
 using UtilInterface;
 using UtilPDF.ComprobantesPdf;
 
@@ -45,11 +45,11 @@ namespace IoC
             services.AddScoped
                 <ICajaSesionBussines,
                 CajaSesionBussines>();
-<<<<<<< HEAD
+
             services.AddScoped
                 <IBarcodeService, 
                 BarcodeService>();
-=======
+
 
             services.AddScoped
                 <IClienteRepository, ClienteRepository>();
@@ -102,7 +102,7 @@ namespace IoC
             services.AddScoped<IDocumentoElectronicoBussines, DocumentoElectronicoBussines>();
             services.AddScoped<IApisPeruPayloadBuilder, ApisPeruPayloadBuilder>();
             services.AddScoped<IComprobantePdfService, ComprobantePdfService>();
->>>>>>> 787cd51adb08540b2ce86f2737763df37a392c8d
+
             return services;
         }
     }

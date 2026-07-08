@@ -660,9 +660,6 @@
         }
       }
     },
-<<<<<<< HEAD
-    "/api/Producto/scan/{barcode}": {
-=======
     "/api/Producto/crear/stock": {
       "post": {
         "tags": [
@@ -740,26 +737,40 @@
       }
     },
     "/api/Producto/{id}/Presentaciones": {
->>>>>>> 787cd51adb08540b2ce86f2737763df37a392c8d
       "get": {
         "tags": [
           "Producto"
         ],
         "parameters": [
           {
-<<<<<<< HEAD
-            "name": "barcode",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-=======
             "name": "id",
             "in": "path",
             "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Producto/scan/{barcode}": {
+      "get": {
+        "tags": [
+          "Producto"
+        ],
+        "parameters": [
+          {
+            "name": "barcode",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
           }
         ],
@@ -1212,7 +1223,6 @@
             "schema": {
               "type": "integer",
               "format": "int32"
->>>>>>> 787cd51adb08540b2ce86f2737763df37a392c8d
             }
           }
         ],

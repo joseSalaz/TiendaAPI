@@ -15,13 +15,13 @@ namespace IBussines
         Task<PaginacionResponse<ProductoResponse>> GetAllProductsPaged(
            int pagina,
            int cantidad);
-<<<<<<< HEAD
+
         Task<ProductoScannedDto> ScanByBarcodeAsync(string barcode);
-=======
+
         Task<ProductoResponse> CreateProductosStock(ProductoRequest request);
         Task<ProductoResponse?> GetByIdAsync(int id);
         Task<ProductoResponse> UpdateProductoConPresentaciones(ProductoRequest request);
         Task<PaginacionResponse<ProductoVentaResponse>> BuscarParaVentaAsync(ProductoVentaFiltroRequest filtro);
->>>>>>> 787cd51adb08540b2ce86f2737763df37a392c8d
+
     }
 }
