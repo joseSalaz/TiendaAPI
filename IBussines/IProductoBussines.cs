@@ -1,4 +1,5 @@
-﻿using Models.RequestResponse;
+﻿using Models.Comon;
+using Models.RequestResponse;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +15,13 @@ namespace IBussines
         Task<PaginacionResponse<ProductoResponse>> GetAllProductsPaged(
            int pagina,
            int cantidad);
+
+        Task<ProductoScannedDto> ScanByBarcodeAsync(string barcode);
+
         Task<ProductoResponse> CreateProductosStock(ProductoRequest request);
         Task<ProductoResponse?> GetByIdAsync(int id);
         Task<ProductoResponse> UpdateProductoConPresentaciones(ProductoRequest request);
         Task<PaginacionResponse<ProductoVentaResponse>> BuscarParaVentaAsync(ProductoVentaFiltroRequest filtro);
+
     }
 }

@@ -1,29 +1,15 @@
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\UtilSecurity\bin\Debug\net8.0\UtilSecurity.deps.json
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\UtilSecurity\bin\Debug\net8.0\UtilSecurity.runtimeconfig.json
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\UtilSecurity\bin\Debug\net8.0\UtilSecurity.dll
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\UtilSecurity\bin\Debug\net8.0\UtilSecurity.pdb
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.csproj.AssemblyReference.cache
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.AssemblyInfoInputs.cache
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.AssemblyInfo.cs
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.csproj.CoreCompileInputs.cache
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.dll
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\refint\UtilSecurity.dll
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.pdb
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.genruntimeconfig.cache
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\ref\UtilSecurity.dll
-D:\jose\Minimarked\BackendMinimarket\UtilSecurity\bin\Debug\net8.0\UtilSecurity.deps.json
-D:\jose\Minimarked\BackendMinimarket\UtilSecurity\bin\Debug\net8.0\UtilSecurity.runtimeconfig.json
-D:\jose\Minimarked\BackendMinimarket\UtilSecurity\bin\Debug\net8.0\UtilSecurity.dll
-D:\jose\Minimarked\BackendMinimarket\UtilSecurity\bin\Debug\net8.0\UtilSecurity.pdb
-D:\jose\Minimarked\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.csproj.AssemblyReference.cache
-D:\jose\Minimarked\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.GeneratedMSBuildEditorConfig.editorconfig
-D:\jose\Minimarked\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.AssemblyInfoInputs.cache
-D:\jose\Minimarked\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.AssemblyInfo.cs
-D:\jose\Minimarked\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.csproj.CoreCompileInputs.cache
-D:\jose\Minimarked\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.sourcelink.json
-D:\jose\Minimarked\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.dll
-D:\jose\Minimarked\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\refint\UtilSecurity.dll
-D:\jose\Minimarked\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.pdb
-D:\jose\Minimarked\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\UtilSecurity.genruntimeconfig.cache
-D:\jose\Minimarked\BackendMinimarket\UtilSecurity\obj\Debug\net8.0\ref\UtilSecurity.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilSecurity\bin\Debug\net8.0\UtilSecurity.deps.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilSecurity\bin\Debug\net8.0\UtilSecurity.runtimeconfig.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilSecurity\bin\Debug\net8.0\UtilSecurity.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilSecurity\bin\Debug\net8.0\UtilSecurity.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilSecurity\obj\Debug\net8.0\UtilSecurity.csproj.AssemblyReference.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilSecurity\obj\Debug\net8.0\UtilSecurity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilSecurity\obj\Debug\net8.0\UtilSecurity.AssemblyInfoInputs.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilSecurity\obj\Debug\net8.0\UtilSecurity.AssemblyInfo.cs
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilSecurity\obj\Debug\net8.0\UtilSecurity.csproj.CoreCompileInputs.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilSecurity\obj\Debug\net8.0\UtilSecurity.sourcelink.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilSecurity\obj\Debug\net8.0\UtilSecurity.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilSecurity\obj\Debug\net8.0\refint\UtilSecurity.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilSecurity\obj\Debug\net8.0\UtilSecurity.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilSecurity\obj\Debug\net8.0\UtilSecurity.genruntimeconfig.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\UtilSecurity\obj\Debug\net8.0\ref\UtilSecurity.dll

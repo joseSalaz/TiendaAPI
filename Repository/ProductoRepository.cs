@@ -27,6 +27,13 @@ namespace Repository
                     x.Nombre.Contains(query))
                 .ToListAsync();
         }
+
+        public async Task<Producto?> GetByCodigoBarras(string codigoBarras)
+        {
+            return await _context.Productos
+                .FirstOrDefaultAsync(p => p.CodigoBarras == codigoBarras);
+        }
+
         public async Task<Producto?> GetByIdConPresentacionesAsync(int id)
         {
             return await _context.Productos
@@ -119,6 +126,7 @@ namespace Repository
                 CantidadPorPagina = filtro.Cantidad
             };
         }
+
 
     }
 }

@@ -1,29 +1,15 @@
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\DBModel\bin\Debug\net8.0\DBModel.deps.json
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\DBModel\bin\Debug\net8.0\DBModel.runtimeconfig.json
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\DBModel\bin\Debug\net8.0\DBModel.dll
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\DBModel\bin\Debug\net8.0\DBModel.pdb
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.csproj.AssemblyReference.cache
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.AssemblyInfoInputs.cache
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.AssemblyInfo.cs
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.csproj.CoreCompileInputs.cache
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.dll
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\DBModel\obj\Debug\net8.0\refint\DBModel.dll
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.pdb
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.genruntimeconfig.cache
-C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\DBModel\obj\Debug\net8.0\ref\DBModel.dll
-D:\jose\Minimarked\BackendMinimarket\DBModel\bin\Debug\net8.0\DBModel.deps.json
-D:\jose\Minimarked\BackendMinimarket\DBModel\bin\Debug\net8.0\DBModel.runtimeconfig.json
-D:\jose\Minimarked\BackendMinimarket\DBModel\bin\Debug\net8.0\DBModel.dll
-D:\jose\Minimarked\BackendMinimarket\DBModel\bin\Debug\net8.0\DBModel.pdb
-D:\jose\Minimarked\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.csproj.AssemblyReference.cache
-D:\jose\Minimarked\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.GeneratedMSBuildEditorConfig.editorconfig
-D:\jose\Minimarked\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.AssemblyInfoInputs.cache
-D:\jose\Minimarked\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.AssemblyInfo.cs
-D:\jose\Minimarked\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.csproj.CoreCompileInputs.cache
-D:\jose\Minimarked\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.sourcelink.json
-D:\jose\Minimarked\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.dll
-D:\jose\Minimarked\BackendMinimarket\DBModel\obj\Debug\net8.0\refint\DBModel.dll
-D:\jose\Minimarked\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.pdb
-D:\jose\Minimarked\BackendMinimarket\DBModel\obj\Debug\net8.0\DBModel.genruntimeconfig.cache
-D:\jose\Minimarked\BackendMinimarket\DBModel\obj\Debug\net8.0\ref\DBModel.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\DBModel\bin\Debug\net8.0\DBModel.deps.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\DBModel\bin\Debug\net8.0\DBModel.runtimeconfig.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\DBModel\bin\Debug\net8.0\DBModel.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\DBModel\bin\Debug\net8.0\DBModel.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\DBModel\obj\Debug\net8.0\DBModel.csproj.AssemblyReference.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\DBModel\obj\Debug\net8.0\DBModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\DBModel\obj\Debug\net8.0\DBModel.AssemblyInfoInputs.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\DBModel\obj\Debug\net8.0\DBModel.AssemblyInfo.cs
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\DBModel\obj\Debug\net8.0\DBModel.csproj.CoreCompileInputs.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\DBModel\obj\Debug\net8.0\DBModel.sourcelink.json
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\DBModel\obj\Debug\net8.0\DBModel.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\DBModel\obj\Debug\net8.0\refint\DBModel.dll
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\DBModel\obj\Debug\net8.0\DBModel.pdb
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\DBModel\obj\Debug\net8.0\DBModel.genruntimeconfig.cache
+C:\Users\cesae\OneDrive\Escritorio\Tienda Jose\TiendaAPI\DBModel\obj\Debug\net8.0\ref\DBModel.dll

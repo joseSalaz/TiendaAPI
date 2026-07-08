@@ -11,7 +11,11 @@ namespace IRepository
             GetAutoCompleteAsync(
                 string query);
         IQueryable<Producto> GetQueryable();
+
+        Task<Producto?> GetByCodigoBarras(string codigoBarras);
+
         Task<Producto?> GetByIdConPresentacionesAsync(int id);
         Task<PaginacionResponse<ProductoVentaResponse>> BuscarParaVentaAsync(ProductoVentaFiltroRequest filtro);
+
     }
 }

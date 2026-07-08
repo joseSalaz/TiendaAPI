@@ -2,8 +2,12 @@
 using DBModel.DBModels;
 using IBussines;
 using IRepository;
+using IService;
 using Microsoft.EntityFrameworkCore;
+using Models.Comon;
 using Models.RequestResponse;
+using Repository;
+using Service;
 using UtilInterface;
 using UtilPaginados.RequestResponse;
 
@@ -14,23 +18,36 @@ namespace Bussines
         private readonly IProductoRepository _productoRepository;
         private readonly IMapper _mapper;
         private readonly IUnitOfWork _unitOfWork;
+
+        private readonly IBarcodeService _barcodeService;
+
         private readonly IProductoPresentacionRepository _productoPresentacionRepository;
         private readonly ISucursalRepository _sucursalRepository;
         private readonly IProductoStockRepository _productoStockRepository;
+
 
         public ProductoBussines(
             IProductoRepository productoRepository,
             IMapper mapper,
             IUnitOfWork unitOfWork,
-            IProductoPresentacionRepository productoPresentacionRepository, ISucursalRepository sucursalRepository
-            , IProductoStockRepository productoStockRepository)
+
+            IBarcodeService barcodeService,
+            IProductoPresentacionRepository productoPresentacionRepository, 
+            ISucursalRepository sucursalRepository, 
+            IProductoStockRepository productoStockRepository
+            )
+
         {
             _productoRepository = productoRepository;
             _mapper = mapper;
             _unitOfWork = unitOfWork;
+
+            _barcodeService = barcodeService;
+
             _productoPresentacionRepository = productoPresentacionRepository;
             _sucursalRepository = sucursalRepository;
             _productoStockRepository = productoStockRepository;
+
         }
 
         public async Task<List<ProductoResponse>> GetAllAsync()
@@ -157,6 +174,28 @@ namespace Bussines
         {
             GC.SuppressFinalize(this);
         }
+
+        public async Task<ProductoScannedDto> ScanByBarcodeAsync(string barcode)
+        {
+            
+            var productoLocal = await _productoRepository.GetByCodigoBarras(barcode);
+
+            if (productoLocal != null)
+            {
+                return new ProductoScannedDto
+                {
+                    CodigoBarras = productoLocal.CodigoBarras,
+                    Nombre = productoLocal.Nombre,
+                    Descripcion = productoLocal.Descripcion,
+                    ImagenUrl = productoLocal.ImagenUrl,
+                    Encontrado = true,
+                    SourceApi = "LocalDB" 
+                };
+            }
+
+            return await _barcodeService.ScanProductoAsync(barcode);
+        }
+
 
         #region MetodosPropios
         public async Task<ProductoResponse> CreateProductosStock(ProductoRequest request)
@@ -441,5 +480,6 @@ namespace Bussines
             return await _productoRepository.BuscarParaVentaAsync(filtro);
         }
         #endregion 
+
     }
 }

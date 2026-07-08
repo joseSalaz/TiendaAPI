@@ -187,12 +187,31 @@ namespace API.Controllers
 
         //    return Ok(productos);
         //}
+
+        [HttpGet("scan/{barcode}")]
+        public async Task<IActionResult> ScanBarcode(string barcode)
+        {
+            if (string.IsNullOrWhiteSpace(barcode))
+            {
+                return BadRequest(new { message = "El código de barras no puede estar vacío." });
+            }
+
+            var resultado = await _productoBussines.ScanByBarcodeAsync(barcode);
+
+            return Ok(resultado);
+        }
+
         [HttpGet("buscar-venta")]
+
+
         public async Task<IActionResult> BuscarParaVenta([FromQuery] ProductoVentaFiltroRequest filtro)
         {
             var response = await _productoBussines.BuscarParaVentaAsync(filtro);
             return Ok(response);
+
         }
-        #endregion
     }
 }
+
+        #endregion
+

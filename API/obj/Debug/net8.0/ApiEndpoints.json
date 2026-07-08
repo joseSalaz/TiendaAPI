@@ -511,6 +511,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "API.Controllers.ProductoController",
+    "Method": "ScanBarcode",
+    "RelativePath": "api/Producto/scan/{barcode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "barcode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API.Controllers.ProductoLoteController",
     "Method": "RegistrarEntrada",
     "RelativePath": "api/ProductoLote/Registrar/Entrada",

@@ -1,12 +1,19 @@
 ﻿using Bussines;
 using IBussines;
 using IRepository;
+
+using IService;
+using Microsoft.Extensions.DependencyInjection;
+using Repository;
+using Service;
+
 using IService.ConsultaDNI_RUC;
 using IService.FacturacionElectronica;
 using Microsoft.Extensions.DependencyInjection;
 using Repository;
 using Service.ConsultaDNI_RUC;
 using Service.FacturacionElectronica;
+
 using UtilInterface;
 using UtilPDF.ComprobantesPdf;
 
@@ -14,6 +21,7 @@ namespace IoC
 {
     public static class DependencyInjection
     {
+
         public static IServiceCollection
             AddDependencyInjection(
                 this IServiceCollection services)
@@ -37,6 +45,11 @@ namespace IoC
             services.AddScoped
                 <ICajaSesionBussines,
                 CajaSesionBussines>();
+
+            services.AddScoped
+                <IBarcodeService, 
+                BarcodeService>();
+
 
             services.AddScoped
                 <IClienteRepository, ClienteRepository>();
@@ -89,6 +102,7 @@ namespace IoC
             services.AddScoped<IDocumentoElectronicoBussines, DocumentoElectronicoBussines>();
             services.AddScoped<IApisPeruPayloadBuilder, ApisPeruPayloadBuilder>();
             services.AddScoped<IComprobantePdfService, ComprobantePdfService>();
+
             return services;
         }
     }

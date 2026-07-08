@@ -2,3 +2,6 @@ appsettings.json
 appsettings.Development.json**/appsettings.json
 **/appsettings.Development.json
 **/app.json
+**/bin/
+**/obj/
+.vs/

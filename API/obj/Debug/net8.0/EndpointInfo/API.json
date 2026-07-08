@@ -759,6 +759,28 @@
         }
       }
     },
+    "/api/Producto/scan/{barcode}": {
+      "get": {
+        "tags": [
+          "Producto"
+        ],
+        "parameters": [
+          {
+            "name": "barcode",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Producto/buscar-venta": {
       "get": {
         "tags": [

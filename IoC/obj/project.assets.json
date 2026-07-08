@@ -1851,23 +1851,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jose Salazar\\.nuget\\packages\\": {},
+    "C:\\Users\\cesae\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\jose\\Minimarked\\BackendMinimarket\\IoC\\IoC.csproj",
+      "projectUniqueName": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IoC\\IoC.csproj",
       "projectName": "IoC",
-      "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\IoC\\IoC.csproj",
-      "packagesPath": "C:\\Users\\Jose Salazar\\.nuget\\packages\\",
-      "outputPath": "D:\\jose\\Minimarked\\BackendMinimarket\\IoC\\obj\\",
+      "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IoC\\IoC.csproj",
+      "packagesPath": "C:\\Users\\cesae\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jose Salazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cesae\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1883,26 +1883,26 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\Bussines.csproj": {
-              "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\Bussines\\Bussines.csproj"
+            "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Bussines\\Bussines.csproj": {
+              "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Bussines\\Bussines.csproj"
             },
-            "D:\\jose\\Minimarked\\BackendMinimarket\\IBussines\\IBussines.csproj": {
-              "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\IBussines\\IBussines.csproj"
+            "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IBussines\\IBussines.csproj": {
+              "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IBussines\\IBussines.csproj"
             },
-            "D:\\jose\\Minimarked\\BackendMinimarket\\IRepository\\IRepository.csproj": {
-              "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\IRepository\\IRepository.csproj"
+            "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IRepository\\IRepository.csproj": {
+              "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IRepository\\IRepository.csproj"
             },
-            "D:\\jose\\Minimarked\\BackendMinimarket\\IService\\IService.csproj": {
-              "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\IService\\IService.csproj"
+            "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IService\\IService.csproj": {
+              "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IService\\IService.csproj"
             },
-            "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\Repository.csproj": {
-              "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\Repository\\Repository.csproj"
+            "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Repository\\Repository.csproj"
             },
-            "D:\\jose\\Minimarked\\BackendMinimarket\\UtilInterface\\UtilInterface.csproj": {
-              "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilInterface\\UtilInterface.csproj"
+            "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilInterface\\UtilInterface.csproj": {
+              "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilInterface\\UtilInterface.csproj"
             },
-            "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPDF\\UtilPDF.csproj": {
-              "projectPath": "D:\\jose\\Minimarked\\BackendMinimarket\\UtilPDF\\UtilPDF.csproj"
+            "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilPDF\\UtilPDF.csproj": {
+              "projectPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\UtilPDF\\UtilPDF.csproj"
             }
           }
         }
