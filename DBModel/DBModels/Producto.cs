@@ -4,8 +4,11 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
+/// <summary>
+/// Catálogo de productos con código de barras para scanner. Incluye precio compra/venta.
+/// </summary>
 [Table("productos")]
 [Index("CategoriaId", Name = "idx_productos_categoria")]
 [Index("CodigoBarras", Name = "productos_codigo_barras_key", IsUnique = true)]
@@ -66,12 +69,21 @@ public partial class Producto
     [Column("fecha_actualizacion")]
     public DateTime FechaActualizacion { get; set; }
 
+    [Column("maneja_vencimiento")]
+    public bool ManejaVencimiento { get; set; }
+
     [ForeignKey("CategoriaId")]
     [InverseProperty("Productos")]
     public virtual Categoria? Categoria { get; set; }
 
     [InverseProperty("Producto")]
     public virtual ICollection<CompraDetalle> CompraDetalles { get; set; } = new List<CompraDetalle>();
+
+    [InverseProperty("Producto")]
+    public virtual ICollection<ProductoLote> ProductoLotes { get; set; } = new List<ProductoLote>();
+
+    [InverseProperty("Producto")]
+    public virtual ICollection<ProductoPresentacione> ProductoPresentaciones { get; set; } = new List<ProductoPresentacione>();
 
     [InverseProperty("Producto")]
     public virtual ICollection<ProductoStock> ProductoStocks { get; set; } = new List<ProductoStock>();

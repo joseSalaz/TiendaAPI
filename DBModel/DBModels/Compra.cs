@@ -4,8 +4,11 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
+/// <summary>
+/// Registro de compras a proveedores. Genera movimientos de stock positivos.
+/// </summary>
 [Table("compras")]
 [Index("SucursalId", "Serie", "Correlativo", Name = "compras_sucursal_id_serie_correlativo_key", IsUnique = true)]
 [Index("Fecha", Name = "idx_compras_fecha", AllDescending = true)]

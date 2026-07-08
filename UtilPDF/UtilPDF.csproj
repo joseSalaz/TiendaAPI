@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="QRCoder" Version="1.8.0" />
+		<PackageReference Include="QuestPDF" Version="2026.6.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DBModel\DBModel.csproj" />
+		<ProjectReference Include="..\IRepository\IRepository.csproj" />
+	</ItemGroup>
+
+</Project>

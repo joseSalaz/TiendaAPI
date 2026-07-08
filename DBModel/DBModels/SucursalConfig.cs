@@ -4,8 +4,11 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
+/// <summary>
+/// Configuración por sucursal: series, correlativos, credenciales SUNAT.
+/// </summary>
 [Table("sucursal_config")]
 public partial class SucursalConfig
 {

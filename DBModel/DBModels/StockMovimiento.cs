@@ -4,10 +4,10 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
 /// <summary>
-/// Historial de movimientos de inventario
+/// Historial de movimientos de inventario: ventas, compras, ajustes.
 /// </summary>
 [Table("stock_movimientos")]
 [Index("FechaCreacion", Name = "idx_stock_mov_fecha", AllDescending = true)]
@@ -53,6 +53,13 @@ public partial class StockMovimiento
 
     [Column("fecha_creacion")]
     public DateTime FechaCreacion { get; set; }
+
+    [Column("lote_id")]
+    public int? LoteId { get; set; }
+
+    [ForeignKey("LoteId")]
+    [InverseProperty("StockMovimientos")]
+    public virtual ProductoLote? Lote { get; set; }
 
     [ForeignKey("ProductoId")]
     [InverseProperty("StockMovimientos")]

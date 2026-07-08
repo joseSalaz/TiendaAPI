@@ -1,3 +1,33 @@
+<<<<<<< HEAD
+=======
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\bin\Debug\net8.0\IBussines.deps.json
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\bin\Debug\net8.0\IBussines.runtimeconfig.json
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\bin\Debug\net8.0\IBussines.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\bin\Debug\net8.0\IBussines.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\bin\Debug\net8.0\Constantes.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\bin\Debug\net8.0\DBModel.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\bin\Debug\net8.0\IService.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\bin\Debug\net8.0\Models.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\bin\Debug\net8.0\UtilInterface.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\bin\Debug\net8.0\UtilPaginados.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\bin\Debug\net8.0\DBModel.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\bin\Debug\net8.0\IService.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\bin\Debug\net8.0\Models.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\bin\Debug\net8.0\UtilInterface.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\bin\Debug\net8.0\UtilPaginados.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\bin\Debug\net8.0\Constantes.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\obj\Debug\net8.0\IBussines.csproj.AssemblyReference.cache
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\obj\Debug\net8.0\IBussines.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\obj\Debug\net8.0\IBussines.AssemblyInfoInputs.cache
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\obj\Debug\net8.0\IBussines.AssemblyInfo.cs
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\obj\Debug\net8.0\IBussines.csproj.CoreCompileInputs.cache
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\obj\Debug\net8.0\IBussines.csproj.Up2Date
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\obj\Debug\net8.0\IBussines.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\obj\Debug\net8.0\refint\IBussines.dll
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\obj\Debug\net8.0\IBussines.pdb
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\obj\Debug\net8.0\IBussines.genruntimeconfig.cache
+C:\Users\Jose Salazar\Downloads\BackendMinimarket_refactorizado\BackendMinimarket\IBussines\obj\Debug\net8.0\ref\IBussines.dll
+>>>>>>> 787cd51adb08540b2ce86f2737763df37a392c8d
 D:\jose\Minimarked\BackendMinimarket\IBussines\bin\Debug\net8.0\IBussines.deps.json
 D:\jose\Minimarked\BackendMinimarket\IBussines\bin\Debug\net8.0\IBussines.runtimeconfig.json
 D:\jose\Minimarked\BackendMinimarket\IBussines\bin\Debug\net8.0\IBussines.dll

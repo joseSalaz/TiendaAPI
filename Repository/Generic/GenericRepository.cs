@@ -1,4 +1,5 @@
-﻿using DBModel.Models;
+﻿
+using DBModel.DBModels;
 using Microsoft.EntityFrameworkCore;
 using UtilInterface;
 

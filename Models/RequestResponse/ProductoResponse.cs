@@ -37,5 +37,7 @@ namespace Models.RequestResponse
         public DateTime FechaCreacion { get; set; }
 
         public DateTime FechaActualizacion { get; set; }
+        public Boolean ManejaVencimiento { get; set; }
+        public List<ProductoPresentacionRequest> Presentaciones { get; set; } = new();
     }
 }

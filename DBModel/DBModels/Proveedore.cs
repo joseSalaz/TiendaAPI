@@ -4,8 +4,11 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
+/// <summary>
+/// Catálogo de proveedores para el módulo de compras.
+/// </summary>
 [Table("proveedores")]
 public partial class Proveedore
 {

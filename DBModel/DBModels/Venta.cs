@@ -4,13 +4,18 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
+/// <summary>
+/// Cabecera de ventas/comprobantes. Incluye totales, tipo doc, estado SUNAT.
+/// </summary>
 [Table("ventas")]
 [Index("CajaSesionId", Name = "idx_ventas_caja_sesion")]
 [Index("ClienteId", Name = "idx_ventas_cliente")]
+[Index("EstadoSunat", Name = "idx_ventas_estado_sunat")]
 [Index("FechaCreacion", Name = "idx_ventas_fecha", AllDescending = true)]
 [Index("SucursalId", Name = "idx_ventas_sucursal")]
+[Index("TipoDocumento", "Serie", "Correlativo", Name = "idx_ventas_tipo_serie_correlativo")]
 [Index("SucursalId", "Serie", "Correlativo", Name = "ventas_sucursal_id_serie_correlativo_key", IsUnique = true)]
 public partial class Venta
 {
@@ -98,6 +103,35 @@ public partial class Venta
     [Column("fecha_creacion")]
     public DateTime FechaCreacion { get; set; }
 
+    [Column("sunat_codigo")]
+    [StringLength(50)]
+    public string? SunatCodigo { get; set; }
+
+    [Column("sunat_mensaje")]
+    public string? SunatMensaje { get; set; }
+
+    [Column("sunat_hash")]
+    [StringLength(255)]
+    public string? SunatHash { get; set; }
+
+    [Column("enlace_pdf")]
+    public string? EnlacePdf { get; set; }
+
+    [Column("enlace_xml")]
+    public string? EnlaceXml { get; set; }
+
+    [Column("enlace_cdr")]
+    public string? EnlaceCdr { get; set; }
+
+    [Column("respuesta_sunat_json", TypeName = "jsonb")]
+    public string? RespuestaSunatJson { get; set; }
+
+    [Column("fecha_envio_sunat")]
+    public DateTime? FechaEnvioSunat { get; set; }
+
+    [Column("cliente_direccion")]
+    public string? ClienteDireccion { get; set; }
+
     [ForeignKey("CajaId")]
     [InverseProperty("Venta")]
     public virtual Caja Caja { get; set; } = null!;
@@ -112,6 +146,9 @@ public partial class Venta
 
     [InverseProperty("Venta")]
     public virtual ICollection<DocumentosElectronico> DocumentosElectronicos { get; set; } = new List<DocumentosElectronico>();
+
+    [InverseProperty("Venta")]
+    public virtual ICollection<NotasCredito> NotasCreditos { get; set; } = new List<NotasCredito>();
 
     [ForeignKey("SucursalId")]
     [InverseProperty("Venta")]

@@ -4,8 +4,11 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
+/// <summary>
+/// Control de numeración de comprobantes. Garantiza no repetir serie+correlativo.
+/// </summary>
 [Table("secuencias_documentos")]
 [Index("SucursalId", "TipoDocumento", "Serie", Name = "secuencias_documentos_sucursal_id_tipo_documento_serie_key", IsUnique = true)]
 public partial class SecuenciasDocumento

@@ -3,6 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{02B79BC5-153E-2FD9-CAE3-8149E0D9044F}|Service\\Service.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\service\\barcodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02B79BC5-153E-2FD9-CAE3-8149E0D9044F}|Service\\Service.csproj|solutionrelative:service\\barcodeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,10 +41,6 @@
       "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E63E74C7-7E02-4B64-B18E-3549BBD99D9C}|IoC\\IoC.csproj|c:\\users\\cesae\\onedrive\\escritorio\\tienda jose\\tiendaapi\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E63E74C7-7E02-4B64-B18E-3549BBD99D9C}|IoC\\IoC.csproj|solutionrelative:ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,7 +63,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,7 +71,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAACMXAAAAAAAAAAAuwDcXAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-07-08T15:18:02.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ViewState": "AgIAAK0CAAAAAAAAAAAuwMECAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-07-08T15:17:23.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ProductoRepository.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Repository\\ProductoRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ProductoRepository.cs",
@@ -73,12 +105,11 @@
               "RelativeToolTip": "Repository\\ProductoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T17:43:55.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T15:17:03.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "IProductoRepository.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IRepository\\IProductoRepository.cs",
               "RelativeDocumentMoniker": "IRepository\\IProductoRepository.cs",
@@ -86,12 +117,11 @@
               "RelativeToolTip": "IRepository\\IProductoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T17:43:35.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T15:17:04.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ProductoBussines.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Bussines\\ProductoBussines.cs",
               "RelativeDocumentMoniker": "Bussines\\ProductoBussines.cs",
@@ -99,12 +129,11 @@
               "RelativeToolTip": "Bussines\\ProductoBussines.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T17:37:36.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T15:17:04.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "IProductoBussines.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IBussines\\IProductoBussines.cs",
               "RelativeDocumentMoniker": "IBussines\\IProductoBussines.cs",
@@ -112,25 +141,24 @@
               "RelativeToolTip": "IBussines\\IProductoBussines.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T17:37:20.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T15:17:04.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
               "ToolTip": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\API\\Program.cs",
               "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T17:36:26.362Z",
+              "WhenOpened": "2026-07-08T15:17:04.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "BarcodeService.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Service\\BarcodeService.cs",
               "RelativeDocumentMoniker": "Service\\BarcodeService.cs",
@@ -138,12 +166,12 @@
               "RelativeToolTip": "Service\\BarcodeService.cs",
               "ViewState": "AgIAALsAAAAAAAAAAAAcwNoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T17:27:34.103Z",
+              "WhenOpened": "2026-07-08T15:17:04.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\API\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\ProductoController.cs",
@@ -151,12 +179,11 @@
               "RelativeToolTip": "API\\Controllers\\ProductoController.cs",
               "ViewState": "AgIAAGkAAAAAAAAAAAAgwIQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T17:44:21.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T15:17:04.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IoC\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "IoC\\DependencyInjection.cs",
@@ -164,12 +191,11 @@
               "RelativeToolTip": "IoC\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T17:32:20.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T15:17:04.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "IBarcodeService.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\IService\\IBarcodeService.cs",
               "RelativeDocumentMoniker": "IService\\IBarcodeService.cs",
@@ -177,12 +203,11 @@
               "RelativeToolTip": "IService\\IBarcodeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T17:25:54.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T15:17:04.088Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ProductoScannedDto.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\Models\\Comon\\ProductoScannedDto.cs",
               "RelativeDocumentMoniker": "Models\\Comon\\ProductoScannedDto.cs",
@@ -190,12 +215,11 @@
               "RelativeToolTip": "Models\\Comon\\ProductoScannedDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T17:25:01.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T15:17:04.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "_TiendaDbContext.cs",
               "DocumentMoniker": "C:\\Users\\cesae\\OneDrive\\Escritorio\\Tienda Jose\\TiendaAPI\\DBModel\\DBModels\\_TiendaDbContext.cs",
               "RelativeDocumentMoniker": "DBModel\\DBModels\\_TiendaDbContext.cs",
@@ -203,12 +227,11 @@
               "RelativeToolTip": "DBModel\\DBModels\\_TiendaDbContext.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAD4vzgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T16:37:42.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T15:17:04.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
@@ -216,8 +239,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
               "ViewState": "AgIAALMBAAAAAAAAAAAcwKsBAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-06-23T16:22:37.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T15:17:04.109Z"
             }
           ]
         }

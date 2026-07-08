@@ -23,6 +23,7 @@
     <Project Path="UtilInterface/UtilInterface.csproj" />
     <Project Path="UtilMaper/UtilMapper.csproj" />
     <Project Path="UtilPaginados/UtilPaginados.csproj" />
+    <Project Path="UtilPDF/UtilPDF.csproj" Id="d98d4d03-0dcb-42e8-89f9-12db53c1c96f" />
     <Project Path="UtilSecurity/UtilSecurity.csproj" />
   </Folder>
   <Folder Name="/07 ANOTACIONES/">

@@ -1,12 +1,16 @@
 using AutoMapper;
-using DBModel.Models;
+using DBModel.DBModels;
 using IoC;
+using IService.FacturacionElectronica;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Models.ApisPeru;
+using Service.FacturacionElectronica;
 using System.Text;
 using UtilMaper;
+using QuestPDF.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +36,21 @@ builder.Services.AddDbContext<_TiendaDbContext>(options =>
         builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+#endregion
+
+#region APIS PERU
+builder.Services.Configure<ApisPeruOptions>(
+    builder.Configuration.GetSection("ApisPeru")
+);
+
+builder.Services.AddHttpClient<IApisPeruFacturacionService, ApisPeruFacturacionService>((serviceProvider, client) =>
+{
+    var options = serviceProvider
+        .GetRequiredService<Microsoft.Extensions.Options.IOptions<ApisPeruOptions>>()
+        .Value;
+
+    client.BaseAddress = new Uri(options.BaseUrl);
+});
 #endregion
 
 #region JWT
@@ -146,6 +165,10 @@ builder.Services.AddSingleton<IMapper>(sp =>
     return new Mapper(mapperConfig);
 });
 
+#endregion
+
+#region QUESTPDF
+QuestPDF.Settings.License = LicenseType.Community;
 #endregion
 
 #region Dependency Injection

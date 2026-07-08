@@ -4,8 +4,11 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace DBModel.Models;
+namespace DBModel.DBModels;
 
+/// <summary>
+/// Personal que opera el sistema: admins, vendedores, cajeros. Login con username/password.
+/// </summary>
 [Table("usuarios")]
 [Index("Username", Name = "usuarios_username_key", IsUnique = true)]
 public partial class Usuario
@@ -47,6 +50,9 @@ public partial class Usuario
 
     [Column("fecha_actualizacion")]
     public DateTime FechaActualizacion { get; set; }
+
+    [InverseProperty("Usuario")]
+    public virtual ICollection<CajaMovimiento> CajaMovimientos { get; set; } = new List<CajaMovimiento>();
 
     [InverseProperty("UsuarioApertura")]
     public virtual ICollection<CajaSesione> CajaSesioneUsuarioAperturas { get; set; } = new List<CajaSesione>();
